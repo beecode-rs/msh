@@ -1,0 +1,4 @@
+PROJECTS=["cli","node-log","node-env","node-app"]
+GIT_PROJECT_PREFIX=msh
+GIT_TEAM=beecode-rs
+GIT_HOST=github.com
