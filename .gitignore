@@ -4,3 +4,5 @@ cli
 node-app
 node-env
 node-log
+node-error
+node-session
