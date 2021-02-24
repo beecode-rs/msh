@@ -6,3 +6,4 @@ node-env
 node-log
 node-error
 node-session
+node-util
