@@ -1,0 +1,23 @@
+@startuml
+
+[Cli] as cli
+[Node APP] as node_app
+[Node ENV] as node_env
+[Node Error] as node_error
+[Node LOG] as node_log
+[Node Session] as node_session
+[Node Util] as node_util
+
+cli -up-> node_app
+cli -up-> node_env
+
+node_app -up-> node_log
+
+node_env -up-> node_log
+
+node_util -up-> node_error
+
+
+
+
+@enduml
