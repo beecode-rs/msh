@@ -1,5 +1,4 @@
 .idea
-*.iml
 cli
 node-app
 node-env
@@ -7,3 +6,4 @@ node-log
 node-error
 node-session
 node-util
+base-frame
