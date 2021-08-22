@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-frame/base-frame.iml" filepath="$PROJECT_DIR$/base-frame/base-frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cli/cli.iml" filepath="$PROJECT_DIR$/cli/cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/msh.iml" filepath="$PROJECT_DIR$/.idea/msh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-app/node-app.iml" filepath="$PROJECT_DIR$/node-app/node-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-env/node-env.iml" filepath="$PROJECT_DIR$/node-env/node-env.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-error/node-error.iml" filepath="$PROJECT_DIR$/node-error/node-error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-log/node-log.iml" filepath="$PROJECT_DIR$/node-log/node-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-session/node-session.iml" filepath="$PROJECT_DIR$/node-session/node-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-util/node-util.iml" filepath="$PROJECT_DIR$/node-util/node-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-contractor/test-contractor.iml" filepath="$PROJECT_DIR$/test-contractor/test-contractor.iml" />
+    </modules>
+  </component>
+</project>

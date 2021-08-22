@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/cli" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-app" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-env" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-error" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-log" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-session" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/node-util" libraries="{Node.js Core}" />
+    <excludedPredefinedLibrary name="HTML" />
+  </component>
+</project>
