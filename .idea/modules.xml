@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/node-error/node-error.iml" filepath="$PROJECT_DIR$/node-error/node-error.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-log/node-log.iml" filepath="$PROJECT_DIR$/node-log/node-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-session/node-session.iml" filepath="$PROJECT_DIR$/node-session/node-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/node-temp/node-temp.iml" filepath="$PROJECT_DIR$/node-temp/node-temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-util/node-util.iml" filepath="$PROJECT_DIR$/node-util/node-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-contractor/test-contractor.iml" filepath="$PROJECT_DIR$/test-contractor/test-contractor.iml" />
     </modules>

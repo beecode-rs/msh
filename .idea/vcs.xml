@@ -16,6 +16,7 @@
     <mapping directory="$PROJECT_DIR$/node-error" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/node-log" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/node-session" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/node-temp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/node-util" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test-contractor" vcs="Git" />
   </component>
