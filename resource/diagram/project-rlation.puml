@@ -1,12 +1,18 @@
 @startuml
 
-[Cli] as cli
-[Node APP] as node_app
-[Node ENV] as node_env
-[Node Error] as node_error
-[Node LOG] as node_log
-[Node Session] as node_session
-[Node Util] as node_util
+rectangle "Work in progress" {
+  [msh-base-frame] as base_frame
+  [msh-vision] as vision
+  [msh-test-contractor] as test_contractor
+}
+
+[msh-cli] as cli
+[msh-node-app] as node_app
+[msh-node] as node_env
+[msh-node-error] as node_error
+[msh-node-log] as node_log
+[msh-node-session] as node_session
+[msh-node-util] as node_util
 
 cli -up-> node_app
 cli -up-> node_env
@@ -17,6 +23,15 @@ node_env -up-> node_log
 
 node_util -up-> node_error
 
+vision --> node_app
+vision --> node_env
+vision --> node_log
+
+test_contractor --> node_log
+
+base_frame --> node_app
+base_frame --> node_env
+base_frame --> node_util
 
 
 
