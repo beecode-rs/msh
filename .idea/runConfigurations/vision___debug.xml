@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="vision - debug" type="TypeScriptProgramRunner" factoryName="TypeScript">
+    <option name="interpreterRef" value="project" />
+    <option name="interpreterOptions" value="" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/vision/test" />
+    <option name="tsconfigFile" value="$PROJECT_DIR$/vision/tsconfig.json" />
+    <option name="extraTypeScriptOptions" value="" />
+    <option name="scriptName" value="$PROJECT_DIR$/vision/src/index.ts" />
+    <option name="programParameters" value="--src ./simple/src" />
+    <module name="" />
+    <option name="tsnodePackage" value="~/code/beecode/msh/node-log/node_modules/ts-node" />
+    <method v="2" />
+  </configuration>
+</component>
