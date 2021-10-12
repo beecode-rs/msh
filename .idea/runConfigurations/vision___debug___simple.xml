@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - debug" type="TypeScriptProgramRunner" factoryName="TypeScript">
+  <configuration default="false" name="vision - debug - simple" type="TypeScriptProgramRunner" factoryName="TypeScript">
     <option name="interpreterRef" value="project" />
     <option name="interpreterOptions" value="" />
     <option name="workingDirectory" value="$PROJECT_DIR$/vision/test" />
