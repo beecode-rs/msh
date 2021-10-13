@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="node-util - unit test" type="mocha-javascript-test-runner">
+    <node-interpreter>project</node-interpreter>
+    <node-options />
+    <mocha-package>$PROJECT_DIR$/node-util/node_modules/mocha</mocha-package>
+    <working-directory>$PROJECT_DIR$/node-util</working-directory>
+    <pass-parent-env>true</pass-parent-env>
+    <ui>bdd</ui>
+    <extra-mocha-options />
+    <test-kind>PATTERN</test-kind>
+    <test-pattern>./src/{**/,/}*.test.ts</test-pattern>
+    <method v="2" />
+  </configuration>
+</component>
