@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - debug - simple" type="TypeScriptProgramRunner" factoryName="TypeScript">
+  <configuration default="false" name="vision - debug - entity-type" type="TypeScriptProgramRunner" factoryName="TypeScript">
     <option name="interpreterRef" value="project" />
     <option name="enabledTsNodeEsmLoader" value="false" />
     <option name="interpreterOptions" value="" />
-    <option name="workingDirectory" value="$PROJECT_DIR$/vision/test/simple" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/vision/test/entity-type" />
     <option name="tsconfigFile" value="$PROJECT_DIR$/vision/tsconfig.json" />
     <option name="extraTypeScriptOptions" value="" />
     <option name="scriptName" value="$PROJECT_DIR$/vision/src/index.ts" />
