@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="385px" preserveAspectRatio="none" style="width:701px;height:385px;background:#FFFFFF;" version="1.1" viewBox="0 0 701 385" width="701px" zoomAndPan="magnify"><defs><filter height="300%" id="ffl5mws8k2azi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ee1136c2fea667c858da6db18ea920f9]
+entity node_error--><rect fill="#FFC0CB" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="152" x="269.04" y="7"/><rect fill="#FFC0CB" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="401.04" y="12"/><rect fill="#FFC0CB" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="399.04" y="14"/><rect fill="#FFC0CB" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="399.04" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="284.04" y="39.9951">msh-node-error</text><!--MD5=[dc761494ee1b9b4244e1fb624f515d0f]
+entity node_session--><rect fill="#FF00FF" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="168" x="73.04" y="113"/><rect fill="#FF00FF" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="221.04" y="118"/><rect fill="#FF00FF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="219.04" y="120"/><rect fill="#FF00FF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="219.04" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="88.04" y="145.9951">msh-node-session</text><!--MD5=[54df67121562196fffa2352ae78be17e]
+entity node_util--><rect fill="#FFD700" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="138" x="276.04" y="113"/><rect fill="#FFD700" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="394.04" y="118"/><rect fill="#FFD700" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="392.04" y="120"/><rect fill="#FFD700" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="392.04" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="291.04" y="145.9951">msh-node-util</text><!--MD5=[a937e882fe30e40f6612a11c0a4df80e]
+entity node_log--><rect fill="#90EE90" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="138" x="451.04" y="113"/><rect fill="#90EE90" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="569.04" y="118"/><rect fill="#90EE90" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="567.04" y="120"/><rect fill="#90EE90" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="567.04" y="124"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="466.04" y="145.9951">msh-node-log</text><!--MD5=[528e974334f1ea53c49b315589e37ed7]
+entity node_app--><rect fill="#00FFFF" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="143" x="272.54" y="219"/><rect fill="#00FFFF" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="395.54" y="224"/><rect fill="#00FFFF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="393.54" y="226"/><rect fill="#00FFFF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="393.54" y="230"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="287.54" y="251.9951">msh-node-app</text><!--MD5=[b9c22c1389906d5c5d843de05ade5a78]
+entity test_contractor--><rect fill="#D2691E" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="180" x="57.04" y="219"/><rect fill="#D2691E" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="217.04" y="224"/><rect fill="#D2691E" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="215.04" y="226"/><rect fill="#D2691E" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="215.04" y="230"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="72.04" y="251.9951">msh-test-contractor</text><!--MD5=[5aad52933b20a115e99239acc3f6ddb1]
+entity node_env--><rect fill="#1E90FF" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="142" x="451.04" y="219"/><rect fill="#1E90FF" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="573.04" y="224"/><rect fill="#1E90FF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="571.04" y="226"/><rect fill="#1E90FF" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="571.04" y="230"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="466.04" y="251.9951">msh-node-env</text><!--MD5=[893e59ef80d0d7ffc68896a5e14db9fb]
+entity base_frame--><rect fill="#D3D3D3" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="157" x="106.54" y="325"/><rect fill="#D3D3D3" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="243.54" y="330"/><rect fill="#D3D3D3" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="241.54" y="332"/><rect fill="#D3D3D3" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="241.54" y="336"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="121.54" y="357.9951">msh-base-frame</text><!--MD5=[c251b62818238b6f79269adc5bf7d1e2]
+entity cli--><rect fill="#000000" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="91" x="317.54" y="325"/><rect fill="#000000" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="388.54" y="330"/><rect fill="#000000" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="386.54" y="332"/><rect fill="#000000" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="386.54" y="336"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="332.54" y="357.9951">msh-cli</text><!--MD5=[9408c6bf5129b5837c7d0a66c91047f1]
+entity vision--><rect fill="#FFA500" filter="url(#ffl5mws8k2azi)" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="116" x="526.04" y="325"/><rect fill="#FFA500" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="622.04" y="330"/><rect fill="#FFA500" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="620.04" y="332"/><rect fill="#FFA500" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="620.04" y="336"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="541.04" y="357.9951">msh-vision</text><!--MD5=[8b8265dfffc2fdcf005ec848823c3abb]
+reverse link node_app to vision--><path d="M399.78,267.16 C440.08,284.62 494.09,308.02 533.21,324.98 " fill="none" id="node_app-backto-vision" style="stroke:#00FFFF;stroke-width:1.0;"/><polygon fill="#00FFFF" points="394.94,265.06,401.6095,272.3069,399.5283,267.0468,404.7884,264.9657,394.94,265.06" style="stroke:#00FFFF;stroke-width:1.0;"/><!--MD5=[0700c1bdae0325f7174be48b221851dd]
+reverse link node_env to vision--><path d="M537.99,269.75 C548.2,286.89 561.3,308.85 570.91,324.98 " fill="none" id="node_env-backto-vision" style="stroke:#1E90FF;stroke-width:1.0;"/><polygon fill="#1E90FF" points="535.19,265.06,536.3761,274.8372,537.7562,269.3512,543.2421,270.7313,535.19,265.06" style="stroke:#1E90FF;stroke-width:1.0;"/><!--MD5=[421b48379afd5c15e1738fa5aa14cbcd]
+reverse link node_util to vision--><path d="M419.22,157.53 C495.84,179.09 605.11,210.96 611.04,219 C634.24,250.43 614.07,297.41 598.34,324.85 " fill="none" id="node_util-backto-vision" style="stroke:#FFD700;stroke-width:1.0;"/><polygon fill="#FFD700" points="414.22,156.13,421.7971,162.4219,419.0324,157.4866,423.9677,154.722,414.22,156.13" style="stroke:#FFD700;stroke-width:1.0;"/><!--MD5=[b798392f87e4a3b3b15584a68a1f559e]
+reverse link node_log to vision--><path d="M593.87,158.27 C623.58,170.86 654.83,190.16 672.04,219 C694.98,257.44 651.17,299.85 617.53,324.92 " fill="none" id="node_log-backto-vision" style="stroke:#90EE90;stroke-width:1.0;"/><polygon fill="#90EE90" points="589.12,156.31,595.908,163.446,593.7404,158.2209,598.9655,156.0533,589.12,156.31" style="stroke:#90EE90;stroke-width:1.0;"/><!--MD5=[9a0f982d118d04df248efa98f9a8525d]
+reverse link node_app to base_frame--><path d="M306.13,267.8 C279.54,285.19 244.31,308.23 218.71,324.98 " fill="none" id="node_app-backto-base_frame" style="stroke:#00FFFF;stroke-width:1.0;"/><polygon fill="#00FFFF" points="310.32,265.06,300.5961,266.6239,306.1314,267.7905,304.9649,273.3257,310.32,265.06" style="stroke:#00FFFF;stroke-width:1.0;"/><!--MD5=[313310a5801e1ffa7b3b16ad82bf2921]
+reverse link node_env to base_frame--><path d="M445.9,266.5 C389.15,284.01 312.19,307.76 256.58,324.92 " fill="none" id="node_env-backto-base_frame" style="stroke:#1E90FF;stroke-width:1.0;"/><polygon fill="#1E90FF" points="450.98,264.93,441.2019,263.7516,446.2008,266.3994,443.553,271.3983,450.98,264.93" style="stroke:#1E90FF;stroke-width:1.0;"/><!--MD5=[d18bb5b8b3147562fd308e3971802be0]
+reverse link node_util to base_frame--><path d="M270.7,156.33 C180.71,179.82 40.85,216.63 39.04,219 C6,262.06 72.26,301.58 125.99,324.99 " fill="none" id="node_util-backto-base_frame" style="stroke:#FFD700;stroke-width:1.0;"/><polygon fill="#FFD700" points="275.75,155.02,266.0325,153.4166,270.9113,156.2798,268.0482,161.1586,275.75,155.02" style="stroke:#FFD700;stroke-width:1.0;"/><!--MD5=[18d9e756ee8c530163794b388a18b37d]
+reverse link test_contractor to base_frame--><path d="M156.97,270.19 C163.21,287.26 171.15,308.99 176.99,324.98 " fill="none" id="test_contractor-backto-base_frame" style="stroke:#D2691E;stroke-width:1.0;"/><polygon fill="#D2691E" points="155.1,265.06,154.4261,274.8858,156.8133,269.7573,161.9418,272.1445,155.1,265.06" style="stroke:#D2691E;stroke-width:1.0;"/><!--MD5=[860c5d061bcab264f96d921baa155752]
+reverse link node_log to node_app--><path d="M478.07,161.8 C448.64,179.19 409.65,202.23 381.31,218.98 " fill="none" id="node_log-backto-node_app" style="stroke:#90EE90;stroke-width:1.0;"/><polygon fill="#90EE90" points="482.71,159.06,472.9255,160.1839,478.4025,161.5988,476.9876,167.0759,482.71,159.06" style="stroke:#90EE90;stroke-width:1.0;"/><!--MD5=[f926b658a339def5f7fe5738d7364925]
+reverse link node_session to node_app--><path d="M201.24,161.58 C232.55,179 274.2,202.16 304.44,218.98 " fill="none" id="node_session-backto-node_app" style="stroke:#FF00FF;stroke-width:1.0;"/><polygon fill="#FF00FF" points="196.7,159.06,202.6052,166.9422,201.0647,161.4991,206.5078,159.9586,196.7,159.06" style="stroke:#FF00FF;stroke-width:1.0;"/><!--MD5=[4be3d5f4d0ca4254a7d598c40ea21d4f]
+reverse link node_util to node_app--><path d="M344.78,164.19 C344.61,181.26 344.4,202.99 344.25,218.98 " fill="none" id="node_util-backto-node_app" style="stroke:#FFD700;stroke-width:1.0;"/><polygon fill="#FFD700" points="344.83,159.06,340.753,168.0254,344.7871,164.0598,348.7527,168.094,344.83,159.06" style="stroke:#FFD700;stroke-width:1.0;"/><!--MD5=[c1c883930f1a801d3a88bdc384345635]
+reverse link node_app to cli--><path d="M349.01,270.19 C352.12,287.26 356.09,308.99 359.01,324.98 " fill="none" id="node_app-backto-cli" style="stroke:#00FFFF;stroke-width:1.0;"/><polygon fill="#00FFFF" points="348.07,265.06,345.7518,274.6321,348.9682,269.9787,353.6217,273.195,348.07,265.06" style="stroke:#00FFFF;stroke-width:1.0;"/><!--MD5=[9c7fc7b123386b90749a7d5b5cdb2abd]
+reverse link node_env to cli--><path d="M484.13,267.8 C457.54,285.19 422.31,308.23 396.71,324.98 " fill="none" id="node_env-backto-cli" style="stroke:#1E90FF;stroke-width:1.0;"/><polygon fill="#1E90FF" points="488.32,265.06,478.5961,266.6239,484.1314,267.7905,482.9649,273.3257,488.32,265.06" style="stroke:#1E90FF;stroke-width:1.0;"/><!--MD5=[cf51d2c8ff4a078456be2523d4207e92]
+reverse link node_log to node_env--><path d="M520.56,164.19 C520.89,181.26 521.31,202.99 521.61,218.98 " fill="none" id="node_log-backto-node_env" style="stroke:#90EE90;stroke-width:1.0;"/><polygon fill="#90EE90" points="520.46,159.06,516.6408,168.1382,520.56,164.059,524.6392,167.9782,520.46,159.06" style="stroke:#90EE90;stroke-width:1.0;"/><!--MD5=[0d0a0e7bd68d085df5ab3ad3aad2bfa8]
+reverse link node_log to test_contractor--><path d="M445.84,157.69 C382.24,175.42 290.89,200.89 225.96,218.99 " fill="none" id="node_log-backto-test_contractor" style="stroke:#90EE90;stroke-width:1.0;"/><polygon fill="#90EE90" points="450.75,156.32,441.0062,154.8852,445.9338,157.6634,443.1556,162.591,450.75,156.32" style="stroke:#90EE90;stroke-width:1.0;"/><!--MD5=[62bbe52dff9b8b54d85f2f2f62989f8b]
+reverse link node_error to node_util--><path d="M345.04,58.19 C345.04,75.26 345.04,96.99 345.04,112.98 " fill="none" id="node_error-backto-node_util" style="stroke:#FFC0CB;stroke-width:1.0;"/><polygon fill="#FFC0CB" points="345.04,53.06,341.04,62.06,345.04,58.06,349.04,62.06,345.04,53.06" style="stroke:#FFC0CB;stroke-width:1.0;"/><!--MD5=[753308a92d0c6e2f9ffdf75dbc068687]
+@startuml
+
+!$node_error_color = pink
+!$node_session_color = Magenta
+!$node_util_color = gold
+!$node_log_color = lightgreen
+!$node_app_color = cyan
+!$test_contractor_color = chocolate
+!$node_env_color = DodgerBlue
+!$base_frame_color = lightgray
+!$cli_color = black
+!$vision_color = orange
+
+
+[msh-node-error] as node_error #$node_error_color
+
+[msh-node-session] as node_session #$node_session_color
+[msh-node-util] as node_util #$node_util_color
+[msh-node-log] as node_log #$node_log_color
+
+[msh-node-app] as node_app #$node_app_color
+[msh-test-contractor] as test_contractor #$test_contractor_color
+[msh-node-env] as node_env #$node_env_color;text:white
+
+[msh-base-frame] as base_frame #$base_frame_color
+[msh-cli] as cli #$cli_color;text:white
+[msh-vision] as vision #$vision_color
+
+'- - - - - - - - - - - - - -
+
+vision -up-> node_app #$node_app_color
+vision -up-> node_env #$node_env_color
+vision -up-> node_util #$node_util_color
+vision -up-> node_log #$node_log_color
+
+
+base_frame -up-> node_app #$node_app_color
+base_frame -up-> node_env #$node_env_color
+base_frame -up-> node_util #$node_util_color
+base_frame -up-> test_contractor #$test_contractor_color
+
+
+node_app -up-> node_log #$node_log_color
+node_app -up-> node_session #$node_session_color
+node_app -up-> node_util #$node_util_color
+
+
+cli -up-> node_app #$node_app_color
+cli -up-> node_env #$node_env_color
+
+
+node_env -up-> node_log #$node_log_color
+
+
+test_contractor -up-> node_log #$node_log_color
+
+
+node_util -up-> node_error #$node_error_color
+
+@enduml
+
+@startuml
+
+
+
+[msh-node-error] as node_error #pink
+
+[msh-node-session] as node_session #Magenta
+[msh-node-util] as node_util #gold
+[msh-node-log] as node_log #lightgreen
+
+[msh-node-app] as node_app #cyan
+[msh-test-contractor] as test_contractor #chocolate
+[msh-node-env] as node_env #DodgerBlue;text:white
+
+[msh-base-frame] as base_frame #lightgray
+[msh-cli] as cli #black;text:white
+[msh-vision] as vision #orange
+
+
+vision -up-> node_app #cyan
+vision -up-> node_env #DodgerBlue
+vision -up-> node_util #gold
+vision -up-> node_log #lightgreen
+
+
+base_frame -up-> node_app #cyan
+base_frame -up-> node_env #DodgerBlue
+base_frame -up-> node_util #gold
+base_frame -up-> test_contractor #chocolate
+
+
+node_app -up-> node_log #lightgreen
+node_app -up-> node_session #Magenta
+node_app -up-> node_util #gold
+
+
+cli -up-> node_app #cyan
+cli -up-> node_env #DodgerBlue
+
+
+node_env -up-> node_log #lightgreen
+
+
+test_contractor -up-> node_log #lightgreen
+
+
+node_util -up-> node_error #pink
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 15:26:11 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
