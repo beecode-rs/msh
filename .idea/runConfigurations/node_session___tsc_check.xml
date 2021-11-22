@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="log - tsc:check" type="js.build_tools.npm">
-    <package-json value="$PROJECT_DIR$/node-log/package.json" />
+  <configuration default="false" name="node-session - tsc:check" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/node-session/package.json" />
     <command value="run" />
     <scripts>
       <script value="tsc:check" />

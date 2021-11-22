@@ -3,7 +3,7 @@
     <config-file value="$PROJECT_DIR$/base-frame/jest.config.json" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/test-contractor/node_modules/jest" />
+    <jest-package value="$PROJECT_DIR$/base-frame/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/base-frame" />
     <envs />
     <scope-kind value="ALL" />
