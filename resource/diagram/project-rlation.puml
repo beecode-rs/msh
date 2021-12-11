@@ -52,6 +52,8 @@ node_app -up-> test_contractor #$test_contractor_color
 
 cli -up-> node_app #$node_app_color
 cli -up-> node_env #$node_env_color
+cli -up-> node_log #$node_log_color
+cli -up-> node_util #$node_util_color
 
 
 node_env -up-> node_log #$node_log_color

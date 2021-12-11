@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="contractor - test" type="JavaScriptTestRunnerJest">
-    <config-file value="$PROJECT_DIR$/test-contractor/test/jest.config.json" />
+  <configuration default="false" name="test-contractor - unit" type="JavaScriptTestRunnerJest">
+    <config-file value="$PROJECT_DIR$/test-contractor/jest.config.json" />
     <node-interpreter value="project" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/test-contractor/node_modules/jest" />

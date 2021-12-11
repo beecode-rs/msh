@@ -7,7 +7,7 @@
     <option name="tsconfigFile" value="$PROJECT_DIR$/vision/tsconfig.json" />
     <option name="extraTypeScriptOptions" value="" />
     <option name="scriptName" value="$PROJECT_DIR$/vision/src/index.ts" />
-    <option name="programParameters" value="--projectRootPath=../../.. --destName=vision-no-model --tsConfig=../../../tsconfig.json --printIgnoreExternal --printIgnoreTypes --printIgnorePaths=&quot;src/util,src/module,src/index.ts,src/enum,src/app,src/service/cli,src/model&quot;" />
+    <option name="programParameters" value="--projectRootPath=../../.. --destName=vision-no-model --tsConfig=../../../tsconfig.json --printIgnoreExternal --printIgnoreTypes --printIgnorePaths='[&quot;src/util&quot;,&quot;src/module&quot;,&quot;src/index.ts&quot;,&quot;src/enum&quot;,&quot;src/app&quot;,&quot;src/service/cli&quot;,&quot;src/model&quot;]'" />
     <module name="" />
     <option name="tsnodePackage" value="~/code/beecode/msh/test-contractor/node_modules/ts-node" />
     <method v="2" />
