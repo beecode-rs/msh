@@ -9,7 +9,7 @@
     <option name="scriptName" value="$PROJECT_DIR$/node-app/test/basic-example/index.ts" />
     <option name="programParameters" value="" />
     <module name="" />
-    <option name="tsnodePackage" value="~/code/beecode/msh/node-env/node_modules/ts-node" />
+    <option name="tsnodePackage" value="~/code/beecode/msh/node-app/node_modules/ts-node" />
     <method v="2" />
   </configuration>
 </component>

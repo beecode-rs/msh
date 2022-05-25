@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/test-contractor" />
       <excludeFolder url="file://$MODULE_DIR$/node-temp" />
       <excludeFolder url="file://$MODULE_DIR$/vision" />
+      <excludeFolder url="file://$MODULE_DIR$/orm" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

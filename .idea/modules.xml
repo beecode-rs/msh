@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/node-session/node-session.iml" filepath="$PROJECT_DIR$/node-session/node-session.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-temp/node-temp.iml" filepath="$PROJECT_DIR$/node-temp/node-temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-util/node-util.iml" filepath="$PROJECT_DIR$/node-util/node-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orm/orm.iml" filepath="$PROJECT_DIR$/orm/orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-contractor/test-contractor.iml" filepath="$PROJECT_DIR$/test-contractor/test-contractor.iml" />
       <module fileurl="file://$PROJECT_DIR$/vision/vision.iml" filepath="$PROJECT_DIR$/vision/vision.iml" />
     </modules>
