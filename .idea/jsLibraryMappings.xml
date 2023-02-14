@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/node-session" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node-temp" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/node-util" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/orm" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/test-contractor" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/vision" libraries="{Node.js Core}" />
     <excludedPredefinedLibrary name="HTML" />

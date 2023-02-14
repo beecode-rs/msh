@@ -3,19 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/cli" />
-      <excludeFolder url="file://$MODULE_DIR$/node-app" />
-      <excludeFolder url="file://$MODULE_DIR$/node-env" />
-      <excludeFolder url="file://$MODULE_DIR$/node-error" />
-      <excludeFolder url="file://$MODULE_DIR$/node-log" />
-      <excludeFolder url="file://$MODULE_DIR$/node-session" />
-      <excludeFolder url="file://$MODULE_DIR$/node-util" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
-      <excludeFolder url="file://$MODULE_DIR$/base-frame" />
-      <excludeFolder url="file://$MODULE_DIR$/test-contractor" />
-      <excludeFolder url="file://$MODULE_DIR$/node-temp" />
-      <excludeFolder url="file://$MODULE_DIR$/vision" />
-      <excludeFolder url="file://$MODULE_DIR$/orm" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
