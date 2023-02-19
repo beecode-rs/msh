@@ -1,15 +1,15 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - debug - entity-type" type="TypeScriptProgramRunner" factoryName="TypeScript">
-    <option name="interpreterRef" value="project" />
+  <configuration default="false" name="vision - debug - entity-type" type="TypeScriptProgramRunner" factoryName="TypeScript" folderName="vision">
+    <option name="interpreterRef" value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
     <option name="enabledTsNodeEsmLoader" value="false" />
     <option name="interpreterOptions" value="" />
     <option name="workingDirectory" value="$PROJECT_DIR$/vision/test/entity-type" />
     <option name="tsconfigFile" value="$PROJECT_DIR$/vision/tsconfig.json" />
     <option name="extraTypeScriptOptions" value="" />
-    <option name="scriptName" value="$PROJECT_DIR$/vision/src/index.ts" />
+    <option name="scriptName" value="$PROJECT_DIR$/vision/src/index-cli.ts" />
     <option name="programParameters" value="" />
     <module name="" />
-    <option name="tsnodePackage" value="~/code/beecode/msh/node-app/node_modules/ts-node" />
+    <option name="tsnodePackage" value="~/code/msh/vision/node_modules/ts-node" />
     <method v="2" />
   </configuration>
 </component>

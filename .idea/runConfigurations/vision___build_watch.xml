@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="vision - build:watch" type="js.build_tools.npm" folderName="vision">
+    <package-json value="$PROJECT_DIR$/vision/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="build:watch" />
+    </scripts>
+    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
