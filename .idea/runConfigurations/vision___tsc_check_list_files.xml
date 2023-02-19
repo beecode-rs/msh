@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - tsc:check" type="js.build_tools.npm" folderName="vision">
+  <configuration default="false" name="vision - tsc:check:list-files" type="js.build_tools.npm" folderName="vision">
     <package-json value="$PROJECT_DIR$/vision/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="tsc:check:list-files" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
     <envs />
