@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - lint" type="js.build_tools.npm" folderName="vision">
-    <package-json value="$PROJECT_DIR$/vision/package.json" />
+  <configuration default="false" name="logger - lint" type="js.build_tools.npm" folderName="logger">
+    <package-json value="$PROJECT_DIR$/logger/package.json" />
     <command value="run" />
     <scripts>
       <script value="lint" />

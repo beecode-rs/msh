@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-error - tsc:check" type="js.build_tools.npm">
+  <configuration default="false" name="node-error - tsc:check" type="js.build_tools.npm" folderName="error">
     <package-json value="$PROJECT_DIR$/node-error/package.json" />
     <command value="run" />
     <scripts>

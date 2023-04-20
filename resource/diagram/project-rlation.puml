@@ -19,27 +19,20 @@ arrow {
 !$vision_color = orange
 
 
-rectangle "msh-node-error" as node_error #$node_error_color
+rectangle "msh-error\nold:msh-node-error" as node_error #$node_error_color
 
 rectangle "msh-node-session" as node_session #$node_session_color
-rectangle "msh-node-util" as node_util #$node_util_color
-rectangle "msh-node-log" as node_log #$node_log_color
+rectangle "msh-util\nold:msh-node-util" as node_util #$node_util_color
+rectangle "msh-logger\nold:msh-node-log" as node_log #$node_log_color
 
 rectangle "msh-node-app" as node_app #$node_app_color
 rectangle "msh-test-contractor" as test_contractor #$test_contractor_color
-rectangle "msh-node-env" as node_env #$node_env_color;text:white
+rectangle "msh-env\nold:msh-node-env" as node_env #$node_env_color;text:white
 
 rectangle "msh-base-frame" as base_frame #$base_frame_color
 rectangle "msh-cli" as cli #$cli_color;text:white
-rectangle "msh-vision" as vision #$vision_color
 
 '--------------
-
-vision -up-> node_app #$node_app_color
-vision -up-> node_env #$node_env_color
-vision -up-> node_util #$node_util_color
-vision -up-> node_log #$node_log_color
-
 
 base_frame -up-> node_app #$node_app_color
 base_frame -up-> node_util #$node_util_color

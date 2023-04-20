@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-env - tsc:check" type="js.build_tools.npm">
+  <configuration default="false" name="node-env - tsc:check" type="js.build_tools.npm" folderName="env">
     <package-json value="$PROJECT_DIR$/node-env/package.json" />
     <command value="run" />
     <scripts>

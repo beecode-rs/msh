@@ -1,0 +1,24 @@
+version: '3.5'
+services:
+
+
+#----------------------------------------------------------------#
+#                            INFRASTRUCTURE                      #
+#----------------------------------------------------------------#
+
+  npm-proxy:
+    image: verdaccio/verdaccio:5.22
+#    networks:
+#      - node-network
+    environment:
+      - VERDACCIO_PORT=4873
+    ports:
+      - '4873:4873'
+    volumes:
+      - './.tmp/npm-proxy/config:/verdaccio/conf'
+      - './.tmp/npm-proxy/storage:/verdaccio/storage'
+      - './.tmp/npm-proxy/plugins:/verdaccio/plugins'
+
+#networks:
+#  node-network:
+#    driver: bridge
