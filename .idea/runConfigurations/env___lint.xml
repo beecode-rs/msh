@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="env - tsc:check" type="js.build_tools.npm" folderName="env">
+  <configuration default="false" name="env - lint" type="js.build_tools.npm" folderName="env">
     <package-json value="$PROJECT_DIR$/env/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="lint" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
     <envs />
