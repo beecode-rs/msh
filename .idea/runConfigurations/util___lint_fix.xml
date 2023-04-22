@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="base-frame - tsc:check" type="js.build_tools.npm" folderName="base-frame">
-    <package-json value="$PROJECT_DIR$/base-frame/package.json" />
+  <configuration default="false" name="util - lint:fix" type="js.build_tools.npm" folderName="util">
+    <package-json value="$PROJECT_DIR$/util/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="lint:fix" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
     <envs />
