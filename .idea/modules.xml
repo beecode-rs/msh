@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/_msh.iml" filepath="$PROJECT_DIR$/.idea/_msh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-boot/app-boot.iml" filepath="$PROJECT_DIR$/app-boot/app-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-frame/base-frame.iml" filepath="$PROJECT_DIR$/base-frame/base-frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/cli/cli.iml" filepath="$PROJECT_DIR$/cli/cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/entity/entity.iml" filepath="$PROJECT_DIR$/entity/entity.iml" />

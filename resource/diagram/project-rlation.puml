@@ -7,54 +7,52 @@ arrow {
 'skinparam shadowing false
 
 
-!$node_error_color = pink
+!$error_color = pink
 !$node_session_color = Magenta
-!$node_util_color = gold
-!$node_log_color = lightgreen
-!$node_app_color = cyan
+!$util_color = gold
+!$logger_color = lightgreen
+!$app_boot_color = cyan
 !$test_contractor_color = chocolate
-!$node_env_color = DodgerBlue
+!$env_color = DodgerBlue
 !$base_frame_color = lightgray
 !$cli_color = black
-!$vision_color = orange
 
-
-rectangle "msh-error\nold:msh-node-error" as node_error #$node_error_color
+rectangle "msh-error\nold:msh-node-error" as error #$error_color
 
 rectangle "msh-node-session" as node_session #$node_session_color
-rectangle "msh-util\nold:msh-node-util" as node_util #$node_util_color
-rectangle "msh-logger\nold:msh-node-log" as node_log #$node_log_color
+rectangle "msh-util\nold:msh-node-util" as util #$util_color
+rectangle "msh-logger\nold:msh-node-log" as logger #$logger_color
 
-rectangle "msh-node-app" as node_app #$node_app_color
+rectangle "msh-app-boop\nold:msh-node-app" as app_boot #$app_boot_color
 rectangle "msh-test-contractor" as test_contractor #$test_contractor_color
-rectangle "msh-env\nold:msh-node-env" as node_env #$node_env_color;text:white
+rectangle "msh-env\nold:msh-node-env" as env #$env_color;text:white
 
 rectangle "msh-base-frame" as base_frame #$base_frame_color
 rectangle "msh-cli" as cli #$cli_color;text:white
 
 '--------------
 
-base_frame -up-> node_app #$node_app_color
-base_frame -up-> node_util #$node_util_color
+base_frame -up-> app_boot #$app_boot_color
+base_frame -up-> util #$util_color
 base_frame -up-> test_contractor #$test_contractor_color
 
 
-node_app -up-> node_log #$node_log_color
-node_app -up-> test_contractor #$test_contractor_color
+app_boot -up-> logger #$logger_color
+app_boot -up-> test_contractor #$test_contractor_color
 
 
-cli -up-> node_app #$node_app_color
-cli -up-> node_env #$node_env_color
-cli -up-> node_log #$node_log_color
-cli -up-> node_util #$node_util_color
+cli -up-> app_boot #$app_boot_color
+cli -up-> env #$env_color
+cli -up-> logger #$logger_color
+cli -up-> util #$util_color
 
 
-node_env -up-> node_log #$node_log_color
+env -up-> logger #$logger_color
 
 
-test_contractor -up-> node_log #$node_log_color
+test_contractor -up-> logger #$logger_color
 
 
-node_util -up-> node_error #$node_error_color
+util -up-> error #$error_color
 
 @enduml

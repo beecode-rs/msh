@@ -15,6 +15,7 @@
 /logger
 /util
 /error
+/app-boot
 /.build
 
 /.tmp
