@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="cli - tsc:check" type="js.build_tools.npm" folderName="cli">
+  <configuration default="false" name="cli - lint:fix" type="js.build_tools.npm" folderName="cli">
     <package-json value="$PROJECT_DIR$/cli/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="lint:fix" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
     <envs />
