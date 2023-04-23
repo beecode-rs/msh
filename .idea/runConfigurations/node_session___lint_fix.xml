@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-session - tsc:check" type="js.build_tools.npm" folderName="node-session">
+  <configuration default="false" name="node-session - lint:fix" type="js.build_tools.npm" folderName="node-session">
     <package-json value="$PROJECT_DIR$/node-session/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="lint:fix" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
     <envs />

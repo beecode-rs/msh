@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="orm - int" type="JavaScriptTestRunnerJest">
+  <configuration default="false" name="orm - test:int" type="JavaScriptTestRunnerJest" folderName="orm">
     <config-file value="$PROJECT_DIR$/orm/jest.config.json" />
     <node-interpreter value="project" />
     <node-options value="" />

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - test" type="JavaScriptTestRunnerJest" folderName="vision">
+  <configuration default="false" name="vision - test:int" type="JavaScriptTestRunnerJest" folderName="vision">
     <config-file value="$PROJECT_DIR$/vision/test/jest.config.json" />
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
     <node-options value="" />
