@@ -1,21 +1,28 @@
+# TOOLS
 /base-frame
 /cli
+
+# LIBS
+/app-boot
+/base-temp
+/entity
+/env
+/error
+/logger
+/node-session
+/orm
+/test-contractor
+/util
+
+# OTHER
+/.build
+/.tmp
+
+# DEPRECATED
+/vision
 /node-app
 /node-env
 /node-error
 /node-log
-/node-session
 /node-temp
 /node-util
-/orm
-/test-contractor
-/vision
-/entity
-/env
-/logger
-/util
-/error
-/app-boot
-/.build
-
-/.tmp

@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="vision - test:unit" type="JavaScriptTestRunnerJest" folderName="vision">
     <config-file value="$PROJECT_DIR$/vision/jest.config.json" />
-    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
+    <node-interpreter value="project" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/vision/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/vision" />

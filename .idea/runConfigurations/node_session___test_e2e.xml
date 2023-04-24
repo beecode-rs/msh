@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="node-session - test:e2e" type="JavaScriptTestRunnerJest" folderName="node-session">
     <config-file value="$PROJECT_DIR$/node-session/test/jest.config.js" />
-    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
+    <node-interpreter value="project" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/node-session/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/node-session/test" />

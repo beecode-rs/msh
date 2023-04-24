@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/_msh.iml" filepath="$PROJECT_DIR$/.idea/_msh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-temp/base-temp.iml" filepath="$PROJECT_DIR$/base-temp/base-temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-app/deprecated.node-app.iml" filepath="$PROJECT_DIR$/node-app/deprecated.node-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-env/deprecated.node-env.iml" filepath="$PROJECT_DIR$/node-env/deprecated.node-env.iml" />
       <module fileurl="file://$PROJECT_DIR$/node-error/deprecated.node-error.iml" filepath="$PROJECT_DIR$/node-error/deprecated.node-error.iml" />

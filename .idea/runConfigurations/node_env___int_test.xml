@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="node-env - int test" type="JavaScriptTestRunnerJest" folderName="env">
     <config-file value="$PROJECT_DIR$/node-env/test/jest.config.json" />
-    <node-interpreter value="project" />
+    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/node-env/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/node-env" />

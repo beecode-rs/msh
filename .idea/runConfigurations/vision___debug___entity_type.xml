@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="vision - debug - entity-type" type="TypeScriptProgramRunner" factoryName="TypeScript" folderName="vision">
-    <option name="interpreterRef" value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
+    <option name="interpreterRef" value="project" />
     <option name="enabledTsNodeEsmLoader" value="false" />
     <option name="interpreterOptions" value="" />
     <option name="workingDirectory" value="$PROJECT_DIR$/vision/test/entity-type" />
@@ -9,7 +9,7 @@
     <option name="scriptName" value="$PROJECT_DIR$/vision/src/index-cli.ts" />
     <option name="programParameters" value="" />
     <module name="" />
-    <option name="tsnodePackage" value="~/code/msh/node-app/node_modules/ts-node" />
+    <option name="tsnodePackage" value="~/code/msh/vision/node_modules/ts-node" />
     <method v="2" />
   </configuration>
 </component>

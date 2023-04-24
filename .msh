@@ -1,4 +1,4 @@
-PROJECTS=["cli", "logger", "env", "error", "util", "app-boot", "vision", "orm", "entity", "base-frame", "test-contractor", "node-app", "node-session", "node-temp", "node-util", "node-log", "node-env", "node-error"]
+PROJECTS=["cli", "logger", "env", "error", "util", "app-boot", "vision", "orm", "entity", "base-frame", "test-contractor", "base-temp", "node-app", "node-session", "node-temp", "node-util", "node-log", "node-env", "node-error"]
 GIT_PROJECT_PREFIX=msh
 GIT_TEAM=beecode-rs
 GIT_HOST=github.com

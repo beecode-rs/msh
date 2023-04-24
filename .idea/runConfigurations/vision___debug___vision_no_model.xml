@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="vision - debug - vision-no-model" type="TypeScriptProgramRunner" factoryName="TypeScript" folderName="vision">
-    <option name="interpreterRef" value="$USER_HOME$/.nvm/versions/node/v18.9.1/bin/node" />
+    <option name="interpreterRef" value="project" />
     <option name="enabledTsNodeEsmLoader" value="false" />
     <option name="interpreterOptions" value="" />
     <option name="workingDirectory" value="$PROJECT_DIR$/vision/resource/doc/vision" />
