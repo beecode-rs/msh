@@ -17,6 +17,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/app-boot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/base-frame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/base-temp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cli" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/entity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/env" vcs="Git" />
