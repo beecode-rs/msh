@@ -30,11 +30,13 @@ rectangle "msh-env\nold:msh-node-env" as env #$env_color;text:white
 rectangle "msh-base-frame" as base_frame #$base_frame_color
 rectangle "msh-cli" as cli #$cli_color;text:white
 
+rectangle "msh-entity" as entity
+
 '--------------
 
 base_frame -up-> app_boot #$app_boot_color
-base_frame -up-> util #$util_color
 base_frame -up-> test_contractor #$test_contractor_color
+base_frame -up-> util #$util_color
 
 
 app_boot -up-> logger #$logger_color
@@ -52,7 +54,8 @@ env -up-> logger #$logger_color
 
 test_contractor -up-> logger #$logger_color
 
+logger -up-> util #$logger_color
 
-util -up-> error #$error_color
+entity -up-> util
 
 @enduml
