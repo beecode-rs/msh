@@ -24,13 +24,14 @@ rectangle "msh-util\nold:msh-node-util" as util #$util_color
 rectangle "msh-logger\nold:msh-node-log" as logger #$logger_color
 
 rectangle "msh-app-boop\nold:msh-node-app" as app_boot #$app_boot_color
-rectangle "msh-test-contractor" as test_contractor #$test_contractor_color
+rectangle "wip: msh-test-contractor" as test_contractor #$test_contractor_color
 rectangle "msh-env\nold:msh-node-env" as env #$env_color;text:white
 
-rectangle "msh-base-frame" as base_frame #$base_frame_color
+rectangle "wip: msh-base-frame" as base_frame #$base_frame_color
 rectangle "msh-cli" as cli #$cli_color;text:white
 
-rectangle "msh-entity" as entity
+rectangle "wip: msh-entity" as entity
+rectangle "wip: msh-orm" as orm
 
 '--------------
 
@@ -54,8 +55,15 @@ env -up-> logger #$logger_color
 
 test_contractor -up-> logger #$logger_color
 
-logger -up-> util #$logger_color
+logger -up-> util #$util_color
 
-entity -up-> util
+entity -up-> util #$util_color
+
+
+orm -up-> util #$util_color
+orm -up-> error #$error_color
+orm -up-> logger #$logger_color
+
+
 
 @enduml

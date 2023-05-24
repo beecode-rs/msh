@@ -26,6 +26,7 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 - [msh-base-frame](https://github.com/beecode-rs/msh-base-frame) ![npm](https://img.shields.io/npm/v/@beecode/msh-base-frame) - simplify yeoman, used for setup and updating projects
 - [msh-test-contractor](https://github.com/beecode-rs/msh-test-contractor) ![npm](https://img.shields.io/npm/v/@beecode/msh-test-contractor) - using contracts to achieve integration test functionality by using only unit tests
 - [msh-entity](https://github.com/beecode-rs/msh-entity) ![npm](https://img.shields.io/npm/v/@beecode/msh-entity)
+- [msh-orm](https://github.com/beecode-rs/msh-orm) ![npm](https://img.shields.io/npm/v/@beecode/msh-orm)
 
 ## Project relations
 
