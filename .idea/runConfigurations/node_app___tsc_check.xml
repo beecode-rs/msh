@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-app - tsc:check" type="js.build_tools.npm" folderName="app-boot">
-    <package-json value="$PROJECT_DIR$/node-app/package.json" />
+  <configuration default="false" name="node-app - tsc-check" type="js.build_tools.npm" folderName="app-boot">
+    <package-json value="$PROJECT_DIR$/packages/node-app/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="tsc-check" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node" />
     <envs />

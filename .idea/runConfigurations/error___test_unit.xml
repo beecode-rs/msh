@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="error - test:unit" type="JavaScriptTestRunnerJest" folderName="error">
-    <config-file value="$PROJECT_DIR$/error/jest-unit.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/error/jest-unit.config.js" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/error/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/error" />
+    <jest-package value="$PROJECT_DIR$/packages/error/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/error" />
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />

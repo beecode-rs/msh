@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="env - test:int" type="JavaScriptTestRunnerJest" folderName="env">
-    <config-file value="$PROJECT_DIR$/env/jest-int.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/env/jest-int.config.js" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/env/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/env" />
+    <jest-package value="$PROJECT_DIR$/packages/env/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/env" />
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />

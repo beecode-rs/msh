@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="logger - build:watch" type="js.build_tools.npm" folderName="logger">
-    <package-json value="$PROJECT_DIR$/logger/package.json" />
+    <package-json value="$PROJECT_DIR$/packages/logger/package.json" />
     <command value="run" />
     <scripts>
       <script value="build:watch" />

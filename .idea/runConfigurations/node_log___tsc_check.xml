@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-log - tsc:check" type="js.build_tools.npm" folderName="logger">
-    <package-json value="$PROJECT_DIR$/node-log/package.json" />
+  <configuration default="false" name="node-log - tsc-check" type="js.build_tools.npm" folderName="logger">
+    <package-json value="$PROJECT_DIR$/packages/node-log/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="tsc-check" />
     </scripts>
     <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.13.2/bin/node" />
     <envs />

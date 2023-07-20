@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="logger - test:int:watch" type="JavaScriptTestRunnerJest" folderName="logger">
-    <config-file value="$PROJECT_DIR$/logger/jest-int.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/logger/jest-int.config.js" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/logger/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/logger" />
+    <jest-package value="$PROJECT_DIR$/packages/logger/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/logger" />
     <jest-options value="--watch" />
     <envs />
     <scope-kind value="ALL" />

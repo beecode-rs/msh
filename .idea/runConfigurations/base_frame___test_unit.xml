@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="base-frame - test:unit" type="JavaScriptTestRunnerJest" folderName="base-frame">
-    <config-file value="$PROJECT_DIR$/base-frame/jest-unit.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/base-frame/jest-unit.config.js" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/base-frame/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/base-frame" />
+    <jest-package value="$PROJECT_DIR$/packages/base-frame/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/base-frame" />
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />

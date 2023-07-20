@@ -1,11 +1,13 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="env - test:unit" type="JavaScriptTestRunnerJest" folderName="env">
-    <config-file value="$PROJECT_DIR$/env/jest-unit.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/packages/env/jest.config.unit.js" />
     <node-interpreter value="project" />
-    <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/env/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/env" />
-    <envs />
+    <jest-package value="$PROJECT_DIR$/packages/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/packages/env" />
+    <envs>
+      <env name="NODE_OPTIONS" value="--experimental-vm-modules" />
+      <env name="TZ" value="utc" />
+    </envs>
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>

@@ -3,13 +3,13 @@
     <option name="interpreterRef" value="project" />
     <option name="enabledTsNodeEsmLoader" value="false" />
     <option name="interpreterOptions" value="" />
-    <option name="workingDirectory" value="$PROJECT_DIR$/vision/resource/doc/vision" />
-    <option name="tsconfigFile" value="$PROJECT_DIR$/vision/tsconfig.json" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/packages/vision/resource/doc/vision" />
+    <option name="tsconfigFile" value="$PROJECT_DIR$/packages/vision/tsconfig.json" />
     <option name="extraTypeScriptOptions" value="" />
-    <option name="scriptName" value="$PROJECT_DIR$/vision/src/index-cli.ts" />
+    <option name="scriptName" value="$PROJECT_DIR$/packages/vision/src/index-cli.ts" />
     <option name="programParameters" value="--projectRootPath=../../.. --destName=vision-no-model --tsConfig=../../../tsconfig.json --printIgnoreExternal --printIgnoreTypes --printIgnorePaths='[&quot;src/util&quot;,&quot;src/business/module&quot;,&quot;src/index-cli.ts&quot;,&quot;src/app&quot;,&quot;src/business/service/cli&quot;,&quot;src/business/model&quot;]'" />
     <module name="" />
-    <option name="tsnodePackage" value="~/code/msh/entity/node_modules/ts-node" />
+    <option name="tsnodePackage" value="~/code/msh/packages/entity/node_modules/ts-node" />
     <method v="2" />
   </configuration>
 </component>

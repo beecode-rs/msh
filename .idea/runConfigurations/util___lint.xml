@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="util - lint" type="js.build_tools.npm" folderName="util">
-    <package-json value="$PROJECT_DIR$/util/package.json" />
+    <package-json value="$PROJECT_DIR$/packages/util/package.json" />
     <command value="run" />
     <scripts>
       <script value="lint" />

@@ -1,0 +1,51 @@
+{
+  "name": "msh",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Milos Bugarinovic <milos.bugarinovic@gmail.com>",
+  "type": "module",
+  "workspaces": [
+    "packages/error",
+    "packages/util",
+    "packages/logger",
+    "packages/node-session",
+    "packages/test-contractor",
+    "packages/env",
+    "packages/app-boot",
+    "packages/entity",
+    "packages/base-frame",
+    "packages/orm",
+    "packages/cli"
+  ],
+  "scripts": {
+    "alias": "./resource/script/tsc/alias.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
+    "alias-watch": "./resource/script/tsc/alias.sh -w error util logger node-session test-contractor env app-boot entity base-frame orm cli",
+    "build": "npm run clean && npm run tsc && npm run alias && npm run tsc-hybrid-lib-fix",
+    "build-cjs": "npm run build:cjs -ws",
+    "clean": "rimraf ./packages/**/dist/*",
+    "lint": "npm run lint-json",
+    "lint-fix": "npm run lint-json-fix",
+    "lint-json": "npm run jsonlint:fix -- -c",
+    "lint-json-fix": "jsonsort -t * '!./packages' '!./node_modules' '!./base-temp' '!./**/.env*'",
+    "tsc": "tsc -b ./tsconfig.json",
+    "tsc-clean-watch": "./resource/script/tsc/clean-watch.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
+    "tsc-hybrid-lib-fix": "./resource/script/tsc/hybrid-lib-fix.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
+    "watch": "npm run tsc-hybrid-lib-fix && concurrently -c auto 'npm:watch:*'",
+    "watch:alias": "npm run alias-watch",
+    "watch:build": "npm run tsc -- --watch --preserveWatchOutput",
+    "watch:clean": "npm run tsc-clean-watch"
+  },
+  "devDependencies": {
+    "concurrently": "8.2.0",
+    "json-sort-cli": "3.1.4",
+    "rimraf": "5.0.1",
+    "ts-cleaner": "1.0.5",
+    "tsc-alias": "1.8.7",
+    "typescript": "5.1.6"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  }
+}

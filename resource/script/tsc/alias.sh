@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Initialize variables
+WATCH_MODE=0 # 0 means disabled, 1 means enabled
+
+# Function to display the usage of the script
+function display_usage {
+  echo "Usage: $0 [-w|--watch] project_name1 [project_name2 ...]"
+  echo "Options:"
+  echo "  -w, --watch   Enable watch mode (recompile on file changes)."
+}
+
+# Parse command-line options using getopts
+while getopts ":w" opt; do
+  case $opt in
+    w)
+      WATCH_MODE=1
+      ;;
+    \?)
+      echo "Error: Invalid option -$OPTARG" >&2
+      display_usage
+      exit 1
+      ;;
+  esac
+done
+
+# Shift the option arguments so that "$@" only contains project names
+shift $((OPTIND - 1))
+
+if [ $# -eq 0 ]; then
+  echo "Error: At least one project name is required."
+  exit 1
+fi
+
+for PROJECT_NAME in "$@"; do
+  npx tsc-alias -p "./packages/$PROJECT_NAME/tsconfig.json" "$([ $WATCH_MODE -eq 1 ] && echo '-w')"
+done

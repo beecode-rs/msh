@@ -4,24 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/_msh.iml" filepath="$PROJECT_DIR$/.idea/_msh.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-temp/base-temp.iml" filepath="$PROJECT_DIR$/base-temp/base-temp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-app/deprecated.node-app.iml" filepath="$PROJECT_DIR$/node-app/deprecated.node-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-env/deprecated.node-env.iml" filepath="$PROJECT_DIR$/node-env/deprecated.node-env.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-error/deprecated.node-error.iml" filepath="$PROJECT_DIR$/node-error/deprecated.node-error.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-log/deprecated.node-log.iml" filepath="$PROJECT_DIR$/node-log/deprecated.node-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-temp/deprecated.node-temp.iml" filepath="$PROJECT_DIR$/node-temp/deprecated.node-temp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-util/deprecated.node-util.iml" filepath="$PROJECT_DIR$/node-util/deprecated.node-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-boot/lib.app-boot.iml" filepath="$PROJECT_DIR$/app-boot/lib.app-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/entity/lib.entity.iml" filepath="$PROJECT_DIR$/entity/lib.entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/env/lib.env.iml" filepath="$PROJECT_DIR$/env/lib.env.iml" />
-      <module fileurl="file://$PROJECT_DIR$/error/lib.error.iml" filepath="$PROJECT_DIR$/error/lib.error.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logger/lib.logger.iml" filepath="$PROJECT_DIR$/logger/lib.logger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/node-session/lib.node-session.iml" filepath="$PROJECT_DIR$/node-session/lib.node-session.iml" />
-      <module fileurl="file://$PROJECT_DIR$/util/lib.util.iml" filepath="$PROJECT_DIR$/util/lib.util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cli/tool.cli.iml" filepath="$PROJECT_DIR$/cli/tool.cli.iml" />
-      <module fileurl="file://$PROJECT_DIR$/base-frame/wip.base-frame.iml" filepath="$PROJECT_DIR$/base-frame/wip.base-frame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/orm/wip.orm.iml" filepath="$PROJECT_DIR$/orm/wip.orm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test-contractor/wip.test-contractor.iml" filepath="$PROJECT_DIR$/test-contractor/wip.test-contractor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vision/wip.vision.iml" filepath="$PROJECT_DIR$/vision/wip.vision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/app-boot/lib.app-boot.iml" filepath="$PROJECT_DIR$/packages/app-boot/lib.app-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/entity/lib.entity.iml" filepath="$PROJECT_DIR$/packages/entity/lib.entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/env/lib.env.iml" filepath="$PROJECT_DIR$/packages/env/lib.env.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/error/lib.error.iml" filepath="$PROJECT_DIR$/packages/error/lib.error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/logger/lib.logger.iml" filepath="$PROJECT_DIR$/packages/logger/lib.logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/node-session/lib.node-session.iml" filepath="$PROJECT_DIR$/packages/node-session/lib.node-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/util/lib.util.iml" filepath="$PROJECT_DIR$/packages/util/lib.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/cli/tool.cli.iml" filepath="$PROJECT_DIR$/packages/cli/tool.cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/base-frame/wip.base-frame.iml" filepath="$PROJECT_DIR$/packages/base-frame/wip.base-frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/orm/wip.orm.iml" filepath="$PROJECT_DIR$/packages/orm/wip.orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/test-contractor/wip.test-contractor.iml" filepath="$PROJECT_DIR$/packages/test-contractor/wip.test-contractor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/vision/wip.vision.iml" filepath="$PROJECT_DIR$/packages/vision/wip.vision.iml" />
     </modules>
   </component>
 </project>

@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="node-session - test:int" type="JavaScriptTestRunnerJest" folderName="node-session">
-    <config-file value="$PROJECT_DIR$/node-session/jest-int.config.js" />
+    <config-file value="$PROJECT_DIR$/packages/node-session/jest-int.config.js" />
     <node-interpreter value="project" />
     <node-options value="" />
-    <jest-package value="$PROJECT_DIR$/node-session/node_modules/jest" />
-    <working-dir value="$PROJECT_DIR$/node-session" />
+    <jest-package value="$PROJECT_DIR$/packages/node-session/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/node-session" />
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />
