@@ -33,5 +33,6 @@ if [ $# -eq 0 ]; then
 fi
 
 for PROJECT_NAME in "$@"; do
-  npx tsc-alias -p "./packages/$PROJECT_NAME/tsconfig.json" "$([ $WATCH_MODE -eq 1 ] && echo '-w')"
+	echo "Register tsc-alias for $PROJECT_NAME"
+  npx tsc-alias -p "./packages/$PROJECT_NAME/tsconfig.json" "$([ $WATCH_MODE -eq 1 ] && echo '-w')" &
 done

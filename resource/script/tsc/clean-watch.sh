@@ -6,5 +6,6 @@ if [ $# -eq 0 ]; then
 fi
 
 for PROJECT_NAME in "$@"; do
-  npx ts-cleaner -w -s "./packages/$PROJECT_NAME/src" -d "./packages/$PROJECT_NAME/dist/esm"
+	echo "Register ts-cleaner for $PROJECT_NAME"
+  npx ts-cleaner -w -s "./packages/$PROJECT_NAME/src" -d "./packages/$PROJECT_NAME/dist" &
 done

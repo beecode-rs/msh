@@ -19,10 +19,13 @@
     "packages/cli"
   ],
   "scripts": {
+    "ws-init": "npm run init -ws",
+    "ws-lint": "npm run lint -ws",
+    "ws-lint-fix": "npm run lint-fix -ws",
+    "ws-tsc-check": "npm run tsc-check -ws",
     "alias": "./resource/script/tsc/alias.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
     "alias-watch": "./resource/script/tsc/alias.sh -w error util logger node-session test-contractor env app-boot entity base-frame orm cli",
-    "build": "npm run clean && npm run tsc && npm run alias && npm run tsc-hybrid-lib-fix",
-    "build-cjs": "npm run build:cjs -ws",
+    "build": "npm run clean && npm run tsc && npm run alias",
     "clean": "rimraf ./packages/**/dist/*",
     "lint": "npm run lint-json",
     "lint-fix": "npm run lint-json-fix",
@@ -30,8 +33,7 @@
     "lint-json-fix": "jsonsort -t * '!./packages' '!./node_modules' '!./base-temp' '!./**/.env*'",
     "tsc": "tsc -b ./tsconfig.json",
     "tsc-clean-watch": "./resource/script/tsc/clean-watch.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
-    "tsc-hybrid-lib-fix": "./resource/script/tsc/hybrid-lib-fix.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
-    "watch": "npm run tsc-hybrid-lib-fix && concurrently -c auto 'npm:watch:*'",
+    "watch": "concurrently -c auto 'npm:watch:*'",
     "watch:alias": "npm run alias-watch",
     "watch:build": "npm run tsc -- --watch --preserveWatchOutput",
     "watch:clean": "npm run tsc-clean-watch"

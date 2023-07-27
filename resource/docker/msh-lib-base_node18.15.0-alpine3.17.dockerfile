@@ -1,4 +1,4 @@
-FROM node:18.15.0-alpine3.17
+FROM node:18.17.0-alpine3.18
 
 ENV ROOT_HOME=/root \
     HOME=/home/node \
