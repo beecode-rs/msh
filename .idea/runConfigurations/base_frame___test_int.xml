@@ -1,11 +1,14 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="base-frame - test:int" type="JavaScriptTestRunnerJest" folderName="base-frame">
-    <config-file value="$PROJECT_DIR$/packages/base-frame/jest.config.int.js" />
+    <config-file value="$PROJECT_DIR$/packages/base-frame/jest.config.int.mjs" />
     <node-interpreter value="project" />
-    <node-options value="" />
+    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/base-frame" />
-    <envs />
+
+    <envs>
+      <env name="TZ" value="utc" />
+    </envs>
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>

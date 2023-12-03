@@ -5,7 +5,10 @@
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/orm" />
-    <envs />
+
+    <envs>
+      <env name="TZ" value="utc" />
+    </envs>
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>

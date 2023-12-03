@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="error - test:int:watch" type="JavaScriptTestRunnerJest" folderName="error">
-    <config-file value="$PROJECT_DIR$/packages/error/jest.config.int.js" />
+    <config-file value="$PROJECT_DIR$/packages/error/jest.config.int.mjs" />
     <node-interpreter value="project" />
-    <node-options value="" />
+    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/error" />
     <jest-options value="--watch" />

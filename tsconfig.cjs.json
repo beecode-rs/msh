@@ -1,0 +1,38 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/error/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/util/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/logger/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/node-session/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/test-contractor/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/env/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/app-boot/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/entity/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/base-frame/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/orm/tsconfig.cjs.json"
+    },
+    {
+      "path": "packages/cli/tsconfig.cjs.json"
+    }
+  ]
+}

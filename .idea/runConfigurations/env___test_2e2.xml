@@ -2,10 +2,13 @@
   <configuration default="false" name="env - test:2e2" type="JavaScriptTestRunnerJest" folderName="env">
     <config-file value="$PROJECT_DIR$/packages/env/test/jest.config.js" />
     <node-interpreter value="project" />
-    <node-options value="" />
+    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/env/test" />
-    <envs />
+
+    <envs>
+      <env name="TZ" value="utc" />
+    </envs>
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>

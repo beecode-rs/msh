@@ -1,11 +1,15 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="logger - test:unit:watch" type="JavaScriptTestRunnerJest" folderName="logger">
-    <config-file value="$PROJECT_DIR$/packages/logger/jest.config.unit.js" />
+    <config-file value="$PROJECT_DIR$/packages/logger/jest.config.unit.mjs" />
     <node-interpreter value="project" />
+    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/logger" />
     <jest-options value="--watch" />
-    <envs />
+
+    <envs>
+      <env name="TZ" value="utc" />
+    </envs>
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>
