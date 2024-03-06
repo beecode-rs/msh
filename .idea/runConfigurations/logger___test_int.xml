@@ -1,11 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="logger - test:int" type="JavaScriptTestRunnerJest" folderName="logger">
-    <config-file value="$PROJECT_DIR$/packages/logger/jest.config.int.mjs" />
+    <config-file value="$PROJECT_DIR$/packages/logger/jest.config.int.ts" />
     <node-interpreter value="project" />
     <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/logger" />
-
     <envs>
       <env name="TZ" value="utc" />
     </envs>

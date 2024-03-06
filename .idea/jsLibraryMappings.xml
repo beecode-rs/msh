@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/packages/app-boot" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/base-frame" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/cli" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/entity" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/env" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/error" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/logger" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/node-session" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/orm" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/test-contractor" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/util" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/vision" libraries="{Node.js Core}" />
     <excludedPredefinedLibrary name="HTML" />
   </component>
 </project>
