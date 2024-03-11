@@ -2,13 +2,10 @@
   <configuration default="false" name="vision - test:unit" type="JavaScriptTestRunnerJest" folderName="vision">
     <config-file value="$PROJECT_DIR$/packages/vision/jest.config.json" />
     <node-interpreter value="project" />
-    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/vision" />
 
-    <envs>
-      <env name="TZ" value="utc" />
-    </envs>
+    <envs />
     <scope-kind value="ALL" />
     <method v="2" />
   </configuration>
