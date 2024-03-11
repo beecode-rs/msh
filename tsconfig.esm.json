@@ -1,38 +1,38 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "packages/error/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/util/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/logger/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/node-session/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/test-contractor/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/env/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/app-boot/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/entity/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/base-frame/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/orm/tsconfig.esm.json"
-    },
-    {
-      "path": "packages/cli/tsconfig.esm.json"
-    }
-  ]
+	"files": [],
+	"references": [
+		{
+			"path": "packages/error/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/util/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/logger/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/node-session/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/test-contractor/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/env/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/app-boot/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/entity/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/base-frame/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/orm/tsconfig.esm.json"
+		},
+		{
+			"path": "packages/cli/tsconfig.esm.json"
+		}
+	]
 }
