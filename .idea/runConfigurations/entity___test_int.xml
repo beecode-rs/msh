@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="entity - test:int" type="JavaScriptTestRunnerJest" folderName="entity">
+    <config-file value="$PROJECT_DIR$/packages/entity/jest.config.int.ts" />
+    <node-interpreter value="project" />
+    <node-options value="--experimental-vm-modules" />
+    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$/packages/entity" />
+    <envs>
+      <env name="TZ" value="utc" />
+    </envs>
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>
