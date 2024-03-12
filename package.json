@@ -6,17 +6,17 @@
   "author": "Milos Bugarinovic <milos.bugarinovic@gmail.com>",
   "type": "module",
   "workspaces": [
-    "packages/app-boot",
-    "packages/entity",
-    "packages/env",
     "packages/error",
+    "packages/util",
     "packages/logger",
     "packages/node-session",
-    "packages/util",
-    "packages/cli",
+    "packages/test-contractor",
+    "packages/env",
+    "packages/app-boot",
+    "packages/entity",
     "packages/base-frame",
     "packages/orm",
-    "packages/test-contractor"
+    "packages/cli"
   ],
   "scripts": {
     "alias": "concurrently -c auto 'npm:alias:*'",
@@ -28,7 +28,7 @@
     "build": "npm run clean && npm run tsc && npm run alias && npm run ws-tsc-hybrid-lib-fix",
     "clean": "concurrently -c auto 'npm:clean:*'",
     "clean:cjs": "rimraf ./packages/**/dist/cjs/*",
-    "clean:es,": "rimraf ./packages/**/dist/esm/*",
+    "clean:esm": "rimraf ./packages/**/dist/esm/*",
     "lint": "npm run lint-json",
     "lint-fix": "npm run lint-json-fix",
     "lint-json": "npm run lint-json-fix -- -c",
