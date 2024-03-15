@@ -1,0 +1,38 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/error/tsconfig.json"
+    },
+    {
+      "path": "packages/util/tsconfig.json"
+    },
+    {
+      "path": "packages/logger/tsconfig.json"
+    },
+    {
+      "path": "packages/node-session/tsconfig.json"
+    },
+    {
+      "path": "packages/test-contractor/tsconfig.json"
+    },
+    {
+      "path": "packages/env/tsconfig.json"
+    },
+    {
+      "path": "packages/app-boot/tsconfig.json"
+    },
+    {
+      "path": "packages/entity/tsconfig.json"
+    },
+    {
+      "path": "packages/base-frame/tsconfig.json"
+    },
+    {
+      "path": "packages/orm/tsconfig.json"
+    },
+    {
+      "path": "packages/cli/tsconfig.json"
+    }
+  ]
+}
