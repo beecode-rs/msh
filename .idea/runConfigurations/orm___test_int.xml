@@ -2,6 +2,7 @@
   <configuration default="false" name="orm - test:int" type="JavaScriptTestRunnerJest" folderName="orm">
     <config-file value="$PROJECT_DIR$/packages/orm/jest.config.json" />
     <node-interpreter value="project" />
+    <node-options value="--experimental-vm-modules" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/orm" />

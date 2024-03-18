@@ -2,6 +2,7 @@
   <configuration default="false" name="util - test:unit" type="JavaScriptTestRunnerJest" folderName="util">
     <config-file value="$PROJECT_DIR$/packages/util/jest.config.unit.ts" />
     <node-interpreter value="project" />
+    <node-options value="--experimental-vm-modules" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$/packages/util" />
     <envs />
