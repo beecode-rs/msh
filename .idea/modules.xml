@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/_msh.iml" filepath="$PROJECT_DIR$/.idea/_msh.iml" />
       <module fileurl="file://$PROJECT_DIR$/base-temp/base-temp.iml" filepath="$PROJECT_DIR$/base-temp/base-temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/examples/examples.iml" filepath="$PROJECT_DIR$/packages/examples/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/app-boot/lib.app-boot.iml" filepath="$PROJECT_DIR$/packages/app-boot/lib.app-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/entity/lib.entity.iml" filepath="$PROJECT_DIR$/packages/entity/lib.entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/env/lib.env.iml" filepath="$PROJECT_DIR$/packages/env/lib.env.iml" />

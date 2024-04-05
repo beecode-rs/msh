@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/packages/entity" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/env" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/error" libraries="{Node.js Core}" />
+    <file url="file://$PROJECT_DIR$/packages/examples" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/logger" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/node-session" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/orm" libraries="{Node.js Core}" />

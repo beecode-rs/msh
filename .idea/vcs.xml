@@ -17,10 +17,12 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/app-boot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/base-frame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/base-temp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/cli" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/entity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/env" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/error" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/examples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/logger" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/node-session" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/orm" vcs="Git" />
