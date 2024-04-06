@@ -1,38 +1,38 @@
 {
-	"files": [],
-	"references": [
-		{
-			"path": "packages/error/tsconfig.build.json"
-		},
-		{
-			"path": "packages/util/tsconfig.build.json"
-		},
-		{
-			"path": "packages/logger/tsconfig.build.json"
-		},
-		{
-			"path": "packages/node-session/tsconfig.build.json"
-		},
-		{
-			"path": "packages/test-contractor/tsconfig.build.json"
-		},
-		{
-			"path": "packages/env/tsconfig.build.json"
-		},
-		{
-			"path": "packages/app-boot/tsconfig.build.json"
-		},
-		{
-			"path": "packages/entity/tsconfig.build.json"
-		},
-		{
-			"path": "packages/base-frame/tsconfig.build.json"
-		},
-		{
-			"path": "packages/orm/tsconfig.build.json"
-		},
-		{
-			"path": "packages/cli/tsconfig.build.json"
-		}
-	]
+  "files": [],
+  "references": [
+    {
+      "path": "packages/error/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/util/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/logger/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/node-session/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/test-contractor/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/env/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/app-boot/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/entity/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/base-frame/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/orm/resource/tsconfig/esm.json"
+    },
+    {
+      "path": "packages/cli/resource/tsconfig/esm.json"
+    }
+  ]
 }

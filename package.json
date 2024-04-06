@@ -21,7 +21,9 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run tsc",
+    "build-cjs": "npm run build-cjs -ws",
     "clean": "rimraf ./packages/**/dist/*",
+    "clean-cjs": "rimraf ./packages/**/lib/*",
     "lint": "npm run lint-json",
     "lint-fix": "npm run lint-json-fix",
     "lint-json": "npm run lint-json-fix -- -c",
