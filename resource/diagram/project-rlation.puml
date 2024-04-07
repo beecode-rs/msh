@@ -51,6 +51,7 @@ cli -up-> util #$util_color
 
 
 env -up-> logger #$logger_color
+env -up-> util #$util_color
 
 
 test_contractor -up-> logger #$logger_color
