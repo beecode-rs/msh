@@ -15,24 +15,19 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/app-boot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/base-frame" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/base-temp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/cli" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/entity" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/env" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/error" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/logger" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-app" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-env" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-error" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-log" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-session" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-temp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/node-util" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/orm" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test-contractor" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/util" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/vision" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/app-boot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/base-frame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/cli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/entity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/env" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/error" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/logger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/node-session" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/test-contractor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/util" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/vision" vcs="Git" />
   </component>
 </project>

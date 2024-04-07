@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="base-frame - tsc:check" type="js.build_tools.npm" folderName="base-frame">
-    <package-json value="$PROJECT_DIR$/base-frame/package.json" />
+  <configuration default="false" name="base-frame - tsc-check" type="js.build_tools.npm" folderName="base-frame">
+    <package-json value="$PROJECT_DIR$/packages/base-frame/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="tsc-check" />
     </scripts>
     <node-interpreter value="project" />
     <envs />

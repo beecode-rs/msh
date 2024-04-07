@@ -1,0 +1,38 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "packages/error/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/util/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/logger/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/node-session/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/test-contractor/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/env/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/app-boot/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/entity/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/base-frame/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/orm/resource/tsconfig/esm.json"
+		},
+		{
+			"path": "packages/cli/resource/tsconfig/esm.json"
+		}
+	]
+}

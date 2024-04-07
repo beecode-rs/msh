@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="cli - tsc:check" type="js.build_tools.npm" folderName="cli">
-    <package-json value="$PROJECT_DIR$/cli/package.json" />
+  <configuration default="false" name="cli - tsc-check" type="js.build_tools.npm" folderName="cli">
+    <package-json value="$PROJECT_DIR$/packages/cli/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc:check" />
+      <script value="tsc-check" />
     </scripts>
     <node-interpreter value="project" />
     <envs />

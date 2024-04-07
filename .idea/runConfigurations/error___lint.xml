@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="error - lint" type="js.build_tools.npm" folderName="error">
-    <package-json value="$PROJECT_DIR$/error/package.json" />
+    <package-json value="$PROJECT_DIR$/packages/error/package.json" />
     <command value="run" />
     <scripts>
       <script value="lint" />

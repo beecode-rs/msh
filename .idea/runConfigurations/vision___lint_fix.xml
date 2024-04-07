@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - lint:fix" type="js.build_tools.npm" folderName="vision">
-    <package-json value="$PROJECT_DIR$/vision/package.json" />
+  <configuration default="false" name="vision - lint-fix" type="js.build_tools.npm" folderName="vision">
+    <package-json value="$PROJECT_DIR$/packages/vision/package.json" />
     <command value="run" />
     <scripts>
-      <script value="lint:fix" />
+      <script value="lint-fix" />
     </scripts>
     <node-interpreter value="project" />
     <envs />
