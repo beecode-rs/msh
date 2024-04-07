@@ -18,6 +18,7 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 
 <details>
   <summary>Older versions</summary>
+
 - [msh-node-app](https://github.com/beecode-rs/msh-node-app) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-app)
 - [msh-node-log](https://github.com/beecode-rs/msh-node-log) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-log)
 - [msh-node-error](https://github.com/beecode-rs/msh-node-error) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-error)
