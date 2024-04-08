@@ -13,7 +13,6 @@
     <file url="file://$PROJECT_DIR$/packages/orm" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/test-contractor" libraries="{Node.js Core}" />
     <file url="file://$PROJECT_DIR$/packages/util" libraries="{Node.js Core}" />
-    <file url="file://$PROJECT_DIR$/packages/vision" libraries="{Node.js Core}" />
     <excludedPredefinedLibrary name="HTML" />
   </component>
 </project>
