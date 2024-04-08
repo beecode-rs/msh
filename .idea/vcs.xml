@@ -28,6 +28,5 @@
     <mapping directory="$PROJECT_DIR$/packages/orm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/test-contractor" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/util" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/vision" vcs="Git" />
   </component>
 </project>
