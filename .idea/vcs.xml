@@ -15,9 +15,9 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/base-temp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/app-boot" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/base-frame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/packages/base-temp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/cli" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/entity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/packages/env" vcs="Git" />
