@@ -1,64 +1,64 @@
 {
-  "name": "msh",
-  "version": "1.0.0",
-  "private": "true",
-  "description": "",
-  "license": "MIT",
-  "author": "Milos Bugarinovic <milos.bugarinovic@gmail.com> (https://milos.bugarinovic.com)",
-  "type": "module",
-  "imports": {
-    "#src": "./src/index.js",
-    "#src/*": [
-      "./src/*.js",
-      "./src/*/index.js"
-    ]
-  },
-  "workspaces": [
-    "packages/error",
-    "packages/util",
-    "packages/logger",
-    "packages/node-session",
-    "packages/test-contractor",
-    "packages/env",
-    "packages/app-boot",
-    "packages/entity",
-    "packages/base-frame",
-    "packages/orm",
-    "packages/cli"
-  ],
-  "scripts": {
-    "build": "npm run build -ws",
-    "build-cjs": "npm run build-cjs -ws",
-    "clean": "rimraf ./packages/**/dist/*",
-    "clean-cjs": "rimraf ./packages/**/lib/*",
-    "lint": "npm run lint-json",
-    "lint-fix": "npm run lint-json-fix",
-    "lint-json": "npm run lint-json-fix -- -c",
-    "lint-json-fix": "jsonsort -t *.json '!./packages' '!./node_modules' '!./base-temp' '!./**/.env*'",
-    "npm-ncu-check": "npm run npm-ncu-check -ws",
-    "npm-ncu-update": "npm run npm-ncu-update -ws",
-    "tsc": "tsc -b tsconfig.json",
-    "tsc-clean-watch": "# ./resource/script/tsc/clean-watch.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
-    "watch": "concurrently -c auto 'npm:watch:*'",
-    "watch:build": "# npm run tsc -- --watch --preserveWatchOutput",
-    "watch:clean": "# npm run tsc-clean-watch",
-    "ws-doc": "npm run doc -ws",
-    "ws-init": "npm run init -ws",
-    "ws-lint": "npm run lint -ws",
-    "ws-lint-fix": "npm run lint-fix -ws",
-    "ws-npm-lock-file-generate": "npm run npm-lock-file-generate -ws",
-    "ws-tsc-check": "npm run tsc-check -ws"
-  },
-  "devDependencies": {
-    "concurrently": "8.2.2",
-    "json-sort-cli": "4.0.2",
-    "rimraf": "5.0.5",
-    "ts-cleaner": "1.0.5",
-    "tsc-alias": "1.8.8",
-    "typescript": "5.4.2"
-  },
-  "engines": {
-    "node": ">=18",
-    "npm": ">=9"
-  }
+	"name": "msh",
+	"version": "1.0.0",
+	"private": "true",
+	"description": "",
+	"license": "MIT",
+	"author": "Milos Bugarinovic <milos.bugarinovic@gmail.com> (https://milos.bugarinovic.com)",
+	"type": "module",
+	"imports": {
+		"#src": "./src/index.js",
+		"#src/*": [
+			"./src/*.js",
+			"./src/*/index.js"
+		]
+	},
+	"workspaces": [
+		"packages/error",
+		"packages/util",
+		"packages/logger",
+		"packages/node-session",
+		"packages/test-contractor",
+		"packages/env",
+		"packages/app-boot",
+		"packages/entity",
+		"packages/base-frame",
+		"packages/orm",
+		"packages/cli"
+	],
+	"scripts": {
+		"build": "npm run build -ws",
+		"build-cjs": "npm run build-cjs -ws",
+		"clean": "rimraf ./packages/**/dist/*",
+		"clean-cjs": "rimraf ./packages/**/lib/*",
+		"lint": "npm run lint-json",
+		"lint-fix": "npm run lint-json-fix",
+		"lint-json": "npm run lint-json-fix -- -c",
+		"lint-json-fix": "jsonsort -t *.json '!./packages' '!./node_modules' '!./base-temp' '!./**/.env*'",
+		"npm-ncu-check": "ncu && npm run npm-ncu-check -ws",
+		"npm-ncu-update": "ncu -u && npm run npm-ncu-update -ws",
+		"tsc": "tsc -b tsconfig.json",
+		"tsc-clean-watch": "# ./resource/script/tsc/clean-watch.sh error util logger node-session test-contractor env app-boot entity base-frame orm cli",
+		"watch": "concurrently -c auto 'npm:watch:*'",
+		"watch:build": "# npm run tsc -- --watch --preserveWatchOutput",
+		"watch:clean": "# npm run tsc-clean-watch",
+		"ws-doc": "npm run doc -ws",
+		"ws-init": "npm run init -ws",
+		"ws-lint": "npm run lint -ws",
+		"ws-lint-fix": "npm run lint-fix -ws",
+		"ws-npm-lock-file-generate": "npm run npm-lock-file-generate -ws",
+		"ws-tsc-check": "npm run tsc-check -ws"
+	},
+	"devDependencies": {
+		"concurrently": "8.2.2",
+		"json-sort-cli": "4.0.3",
+		"rimraf": "5.0.5",
+		"ts-cleaner": "1.0.5",
+		"tsc-alias": "1.8.8",
+		"typescript": "5.4.4"
+	},
+	"engines": {
+		"node": ">=18",
+		"npm": ">=9"
+	}
 }
