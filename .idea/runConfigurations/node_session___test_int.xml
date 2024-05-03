@@ -1,11 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="node-session - test:int" type="JavaScriptTestRunnerJest" folderName="node-session">
-    <config-file value="$PROJECT_DIR$/packages/node-session/jest.config.int.ts" />
+  <configuration default="false" name="node-session - test:int" type="JavaScriptTestRunnerVitest" folderName="node-session">
+    <config value="$PROJECT_DIR$/packages/node-session/vitest.config.int.ts" />
     <node-interpreter value="project" />
-    <node-options value="--experimental-vm-modules" />
-    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
     <working-dir value="$PROJECT_DIR$/packages/node-session" />
-
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />
