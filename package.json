@@ -39,13 +39,13 @@
 		"watch:clean": "# npm run tsc-clean-watch",
 		"ws-doc": "resource/script/npm/ws-parallel-by-project-exec.sh -c doc",
 		"ws-i": "npm i && npm run ws-npm-lock-file-generate",
-		"ws-npm-ncu-check": "resource/script/npm/ws-parallel-by-project-exec.sh -c npm-ncu-check",
-		"ws-npm-ncu-update": "resource/script/npm/ws-parallel-by-project-exec.sh -c npm-ncu-update",
-		"ws-test": "resource/script/npm/ws-parallel-by-project-exec.sh -c test",
 		"ws-init": "resource/script/npm/ws-parallel-by-project-exec.sh -c init",
 		"ws-lint": "resource/script/npm/ws-parallel-by-project-exec.sh -c lint",
 		"ws-lint-fix": "resource/script/npm/ws-parallel-by-project-exec.sh -c lint-fix",
 		"ws-npm-lock-file-generate": "resource/script/npm/ws-parallel-by-project-exec.sh -c npm-lock-file-generate",
+		"ws-npm-ncu-check": "resource/script/npm/ws-parallel-by-project-exec.sh -c npm-ncu-check",
+		"ws-npm-ncu-update": "resource/script/npm/ws-parallel-by-project-exec.sh -c npm-ncu-update",
+		"ws-test": "resource/script/npm/ws-parallel-by-project-exec.sh -c test",
 		"ws-tsc-check": "resource/script/npm/ws-parallel-by-project-exec.sh -c tsc-check"
 	},
 	"devDependencies": {
