@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="logger - unit" type="JavascriptTestRunnerJasmine" factoryName="JavascriptTestRunnerJasmine">
-    <node-interpreter value="project" />
-    <jasmine-executable value="bin/jasmine.js" />
-    <scope value="ALL" />
-    <envs />
-    <method v="2" />
-  </configuration>
-</component>

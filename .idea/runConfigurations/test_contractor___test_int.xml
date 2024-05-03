@@ -1,9 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="test-contractor - test:int" type="JavaScriptTestRunnerJest" folderName="test-contractor">
-    <config-file value="$PROJECT_DIR$/packages/test-contractor/test/jest.config.ts" />
+  <configuration default="false" name="test-contractor - test:int" type="JavaScriptTestRunnerVitest" folderName="test-contractor">
+    <config value="$PROJECT_DIR$/packages/test-contractor/vitest.config.int.ts" />
     <node-interpreter value="project" />
-    <node-options value="--experimental-vm-modules" />
-    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
     <working-dir value="$PROJECT_DIR$/packages/test-contractor" />
     <envs />
     <scope-kind value="ALL" />

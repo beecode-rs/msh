@@ -1,11 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="app-boot - test:unit" type="JavaScriptTestRunnerJest" folderName="app-boot">
-    <config-file value="$PROJECT_DIR$/packages/app-boot/jest.config.unit.ts" />
+  <configuration default="false" name="app-boot - test:unit" type="JavaScriptTestRunnerVitest" folderName="app-boot">
+    <config value="$PROJECT_DIR$/packages/app-boot/vitest.config.unit.ts" />
     <node-interpreter value="project" />
-    <node-options value="--experimental-vm-modules" />
-    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
     <working-dir value="$PROJECT_DIR$/packages/app-boot" />
-
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />

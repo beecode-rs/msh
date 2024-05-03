@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="error - test:unit" type="JavaScriptTestRunnerVitest" folderName="error">
-    <config value="$PROJECT_DIR$/packages/error/vitest.config.unit.ts" />
+  <configuration default="false" name="entity - test:e2e" type="JavaScriptTestRunnerVitest" folderName="entity">
+    <config value="$PROJECT_DIR$/packages/entity/test/vitest.config.ts" />
     <node-interpreter value="project" />
     <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
-    <working-dir value="$PROJECT_DIR$/packages/error" />
+    <working-dir value="$PROJECT_DIR$/packages/entity/test" />
     <envs />
     <scope-kind value="ALL" />
     <method v="2" />
