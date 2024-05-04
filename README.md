@@ -6,6 +6,10 @@ The idea behind MSH is a set of tools mimicking a framework in decoupling manner
 
 It is written to be used in Typescript/Node.js projects (and can also be used in web projects)
 
+## Shared configuration
+
+- [msh-config](https://github.com/beecode-rs/msh-config) ![npm](https://img.shields.io/npm/v/@beecode/msh-config) - eslint and prettier config shared between msh projects
+
 ## List of tools
 
 - [msh-util](https://github.com/beecode-rs/msh-util) ![npm](https://img.shields.io/npm/v/@beecode/msh-util) - useful functions
@@ -35,4 +39,4 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 - [msh-base-frame](https://github.com/beecode-rs/msh-base-frame) ![npm](https://img.shields.io/npm/v/@beecode/msh-base-frame) - simplify yeoman, used for setup and updating projects
 
 ## Project relations
-[![Project Relations](https://tinyurl.com/27xc689u)](https://tinyurl.com/27xc689u)<!--![Project Relations](./resource/diagram/project-relation.puml)-->
+[![Project Relations](https://tinyurl.com/234p3wra)](https://tinyurl.com/234p3wra)<!--![Project Relations](./resource/diagram/project-relation.puml)-->

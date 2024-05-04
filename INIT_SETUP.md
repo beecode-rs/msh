@@ -1,6 +1,6 @@
 # init
 
-get blooms project
+get msh project
 ```shell
 git clone git@github.com:beecode-rs/msh.git && \
 cd msh
@@ -10,6 +10,7 @@ run script from the root of the project msh folder
 
 ```shell
 echo "# clone packages" && \
+git clone git@github.com:beecode-rs/msh-config.git          config                   && \
 git clone git@github.com:beecode-rs/msh-base-temp.git       base-temp                && \
 git clone git@github.com:beecode-rs/msh-app-boot.git        packages/app-boot        && \
 git clone git@github.com:beecode-rs/msh-base-frame.git      packages/base-frame      && \

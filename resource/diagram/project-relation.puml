@@ -6,7 +6,7 @@ arrow {
 </style>
 'skinparam shadowing false
 
-
+!$config_color = darkgray
 !$util_color = gold
 !$node_session_color = Magenta
 !$error_color = pink
@@ -20,22 +20,35 @@ arrow {
 !$test_contractor_color = chocolate
 !$base_frame_color = lightgray
 
-rectangle "msh-util" as util [[https://github.com/beecode-rs/msh-util]] #$util_color
-rectangle "msh-node-session" as node_session [[https://github.com/beecode-rs/msh-node-session]] #$node_session_color
-rectangle "msh-error" as error [[https://github.com/beecode-rs/msh-error]] #$error_color
-rectangle "msh-logger" as logger [[https://github.com/beecode-rs/msh-logger]] #$logger_color
-rectangle "msh-env" as env [[https://github.com/beecode-rs/msh-env]] #$env_color;text:white
-rectangle "msh-app-boot" as app_boot [[https://github.com/beecode-rs/msh-app-boot]] #$app_boot_color
-rectangle "msh-cli" as cli [[https://github.com/beecode-rs/msh-cli]] #$cli_color;text:white
-
-folder wip {
-
-  rectangle "msh-test-contractor" as test_contractor [[https://github.com/beecode-rs/msh-test-contractor]] #$test_contractor_color
-  rectangle "msh-base-frame" as base_frame [[https://github.com/beecode-rs/msh-base-frame]] #$base_frame_color
-
-  rectangle "msh-entity" as entity [[https://github.com/beecode-rs/msh-entity]] #$entity_color
-  rectangle "msh-orm" as orm [[https://github.com/beecode-rs/msh-orm]] #$orm_color
+frame "Dependency Level 0" as dep_level_0{
+	rectangle "msh-config" as config [[https://github.com/beecode-rs/msh-config]] #$config_color
 }
+
+frame "Dependency Level 1" as dep_level_1 {
+	rectangle "msh-util" as util [[https://github.com/beecode-rs/msh-util]] #$util_color
+	rectangle "msh-error" as error [[https://github.com/beecode-rs/msh-error]] #$error_color
+	rectangle "msh-node-session" as node_session [[https://github.com/beecode-rs/msh-node-session]] #$node_session_color
+}
+
+frame "Dependency Level 2" as dep_level_2 {
+rectangle "msh-logger" as logger [[https://github.com/beecode-rs/msh-logger]] #$logger_color
+  rectangle "msh-entity (wip)" as entity [[https://github.com/beecode-rs/msh-entity]] #$entity_color
+}
+
+frame "Dependency Level 3" as dep_level_3 {
+rectangle "msh-env" as env [[https://github.com/beecode-rs/msh-env]] #$env_color;text:white
+  rectangle "msh-orm (wip)" as orm [[https://github.com/beecode-rs/msh-orm]] #$orm_color
+  rectangle "msh-test-contractor (wip)" as test_contractor [[https://github.com/beecode-rs/msh-test-contractor]] #$test_contractor_color
+}
+
+frame "Dependency Level 4" as dep_level_4 {
+	rectangle "msh-app-boot" as app_boot [[https://github.com/beecode-rs/msh-app-boot]] #$app_boot_color
+}
+frame "Dependency Level 5" as dep_level_5 {
+	rectangle "msh-cli" as cli [[https://github.com/beecode-rs/msh-cli]] #$cli_color;text:white
+  rectangle "msh-base-frame (wip)" as base_frame [[https://github.com/beecode-rs/msh-base-frame]] #$base_frame_color
+}
+
 '--------------
 
 base_frame -up-> app_boot #$app_boot_color
@@ -45,7 +58,7 @@ base_frame -up-> logger #$logger_color
 
 
 app_boot -up-> logger #$logger_color
-app_boot -down-> test_contractor #$test_contractor_color
+app_boot -up-> test_contractor #$test_contractor_color
 
 
 cli -up-> app_boot #$app_boot_color
@@ -68,7 +81,5 @@ entity -up-> util #$util_color
 orm -up-> util #$util_color
 orm -up-> error #$error_color
 orm -up-> logger #$logger_color
-
-
 
 @enduml
