@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default projects array
-DEFAULT_PROJECTS=("error" "util" "logger" "node-session" "test-contractor" "env" "app-boot" "entity" "base-frame" "orm" "cli")
+DEFAULT_PROJECTS=("config" "error" "util" "logger" "node-session" "test-contractor" "env" "app-boot" "entity" "base-frame" "orm" "cli")
 
 # Function to display the usage of the script
 function display_usage {
