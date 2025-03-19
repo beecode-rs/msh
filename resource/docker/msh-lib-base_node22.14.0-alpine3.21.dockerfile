@@ -1,4 +1,4 @@
-FROM node:20.12.2-alpine3.19
+FROM node:22.14.0-alpine3.21
 
 ENV ROOT_HOME=/root \
     HOME=/home/node \
@@ -16,7 +16,8 @@ USER node
 RUN npm set progress=false && \
     npm config set sign-git-tag false && \
     npm config set git-tag-version false && \
-    npm cache clear --force && \
-    npm install -g npm@9.6.1
+    npm cache clear --force
+#    && \
+#    npm install -g npm@9.6.1
 
 WORKDIR $APP_PATH

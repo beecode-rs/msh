@@ -50,16 +50,16 @@
 		"ws-tsc-check": "resource/script/npm/ws-parallel-by-project-exec.sh -c tsc-check"
 	},
 	"devDependencies": {
-		"concurrently": "8.2.2",
-		"json-sort-cli": "4.0.3",
+		"concurrently": "9.1.2",
+		"json-sort-cli": "4.0.9",
 		"puml-for-markdown": "1.2.1",
-		"rimraf": "5.0.5",
+		"rimraf": "6.0.1",
 		"ts-cleaner": "1.0.5",
-		"tsc-alias": "1.8.8",
-		"typescript": "5.4.5"
+		"tsc-alias": "1.8.11",
+		"typescript": "5.7.3"
 	},
 	"engines": {
-		"node": ">=20.12.2",
-		"npm": ">=10.5.0"
+		"node": ">=22.14.0",
+		"npm": ">=10.9.2"
 	}
 }

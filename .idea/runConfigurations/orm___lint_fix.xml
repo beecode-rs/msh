@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - lint-fix" type="js.build_tools.npm" folderName="vision">
-    <package-json value="$PROJECT_DIR$/packages/vision/package.json" />
+  <configuration default="false" name="orm - lint-fix" type="js.build_tools.npm" folderName="orm">
+    <package-json value="$PROJECT_DIR$/packages/orm/package.json" />
     <command value="run" />
     <scripts>
       <script value="lint-fix" />

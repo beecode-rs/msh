@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="orm - tsc-check" type="js.build_tools.npm" folderName="orm">
+    <package-json value="$PROJECT_DIR$/packages/orm/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="tsc-check" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

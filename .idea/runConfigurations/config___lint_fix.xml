@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="vision - tsc-check" type="js.build_tools.npm" folderName="vision">
-    <package-json value="$PROJECT_DIR$/packages/vision/package.json" />
+  <configuration default="false" name="config - lint-fix" type="js.build_tools.npm" folderName="config">
+    <package-json value="$PROJECT_DIR$/packages/config/package.json" />
     <command value="run" />
     <scripts>
-      <script value="tsc-check" />
+      <script value="lint-fix" />
     </scripts>
     <node-interpreter value="project" />
     <envs />
