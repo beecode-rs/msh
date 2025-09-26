@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="base-frame - debug" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/packages/base-frame/bin/msh-base.js" working-dir="$PROJECT_DIR$/base-temp/.tmp/msh-test">
+    <method v="2" />
+  </configuration>
+</component>
