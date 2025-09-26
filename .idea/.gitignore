@@ -11,3 +11,4 @@ GitLink.xml
 markdown.xml
 # GitHub Copilot persisted chat sessions
 /copilot/chatSessions
+copilot.data*
