@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/app-boot"
+		},
+		{
+			"path": "packages/base-frame"
+		},
+		{
+			"path": "packages/cli"
+		},
+		{
+			"path": "packages/entity"
+		},
+		{
+			"path": "packages/env"
+		},
+		{
+			"path": "packages/error"
+		},
+		{
+			"path": "packages/logger"
+		},
+		{
+			"path": "packages/node-session"
+		},
+		{
+			"path": "packages/orm"
+		},
+		{
+			"path": "packages/test-contractor"
+		},
+		{
+			"path": "packages/util"
+		},
+		{
+			"path": "config"
+		},
+		{
+			"path": "base-temp"
+		}
+	],
+	"settings": {
+		"typescript.format.enable": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

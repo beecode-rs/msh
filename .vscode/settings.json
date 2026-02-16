@@ -1,0 +1,25 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+
+		"vitest.disableWorkspaceWarning": true,
+
+    "testing.automaticallyOpenPeekView": "always",
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "eslint.validate": ["typescript", "typescriptreact"],
+
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.dist": true,
+        "**/.lib": true
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.dist": true,
+        "**/.lib": true
+    }
+}

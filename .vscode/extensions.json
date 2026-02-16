@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "vitest.explorer",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "eamodio.gitlens"
+    ],
+    "unwantedRecommendations": [
+        "eg2.tslint"
+    ]
+}

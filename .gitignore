@@ -4,3 +4,7 @@
 /.tmp
 /packages
 /node_modules
+/resource/ai
+.history
+config
+base-temp

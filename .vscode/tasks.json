@@ -1,0 +1,389 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "app-boot - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/app-boot",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "app-boot - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/app-boot",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "app-boot - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/app-boot"
+    },
+    {
+      "label": "base-frame - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/base-frame",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "base-frame - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/base-frame",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "base-frame - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/base-frame"
+    },
+    {
+      "label": "cli - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/cli",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "cli - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/cli",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "cli - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/cli"
+    },
+    {
+      "label": "config - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/config",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "config - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/config",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "entity - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/entity",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "entity - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/entity",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "entity - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/entity"
+    },
+    {
+      "label": "env - build",
+      "type": "npm",
+      "script": "build",
+      "path": "packages/env"
+    },
+    {
+      "label": "env - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/env",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "env - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/env",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "env - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/env"
+    },
+    {
+      "label": "error - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/error",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "error - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/error",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "error - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/error"
+    },
+    {
+      "label": "logger - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/logger",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "logger - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/logger",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "logger - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/logger"
+    },
+    {
+      "label": "node-session - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/node-session",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "node-session - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/node-session",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "node-session - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/node-session"
+    },
+    {
+      "label": "orm - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/orm",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "orm - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/orm",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "orm - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/orm"
+    },
+    {
+      "label": "root - build",
+      "type": "npm",
+      "script": "build"
+    },
+    {
+      "label": "root - watch",
+      "type": "npm",
+      "script": "watch",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*",
+          "endsPattern": "^.*"
+        }
+      }
+    },
+    {
+      "label": "test-contract - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/test-contract",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "test-contract - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/test-contract",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "test-contract - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/test-contract"
+    },
+    {
+      "label": "util - lint",
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/util",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "util - lint-fix",
+      "type": "npm",
+      "script": "lint-fix",
+      "path": "packages/util",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "util - tsc-check",
+      "type": "npm",
+      "script": "tsc-check",
+      "path": "packages/util"
+    },
+    {
+      "label": "Build All",
+      "dependsOn": [
+        "env - build",
+        "root - build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Lint All",
+      "dependsOn": [
+        "app-boot - lint",
+        "base-frame - lint",
+        "cli - lint",
+        "config - lint",
+        "entity - lint",
+        "env - lint",
+        "error - lint",
+        "logger - lint",
+        "node-session - lint",
+        "orm - lint",
+        "test-contract - lint",
+        "util - lint"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Lint & Fix All",
+      "dependsOn": [
+        "app-boot - lint-fix",
+        "base-frame - lint-fix",
+        "cli - lint-fix",
+        "config - lint-fix",
+        "entity - lint-fix",
+        "env - lint-fix",
+        "error - lint-fix",
+        "logger - lint-fix",
+        "node-session - lint-fix",
+        "orm - lint-fix",
+        "test-contract - lint-fix",
+        "util - lint-fix"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ]
+}

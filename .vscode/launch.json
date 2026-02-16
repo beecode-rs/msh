@@ -1,0 +1,131 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Node - Current File",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "base-frame - debug - msh-env",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/base-frame/src/index.ts",
+      "cwd": "${workspaceFolder}/base-temp/.tmp/msh-test",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - entity-type",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/test/entity-type",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - import-index",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/test/index-import",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - react",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/test/react",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - simple",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/test/simple",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - vision-model",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/resource/doc/vision",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    },
+    {
+      "name": "vision - debug - vision-no-model",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/packages/vision/src/index-cli.ts",
+      "cwd": "${workspaceFolder}/packages/vision/resource/doc/vision",
+      "runtimeArgs": [
+        "--loader",
+        "tsx/esm"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal",
+      "preLaunchTask": "npm: build"
+    }
+  ]
+}
