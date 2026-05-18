@@ -3,10 +3,10 @@
         "vitest.explorer",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
-        "eamodio.gitlens"
+        "streetsidesoftware.code-spell-checker"
     ],
     "unwantedRecommendations": [
-        "eg2.tslint"
+        "eg2.tslint",
+        "eamodio.gitlens"
     ]
 }

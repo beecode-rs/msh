@@ -44,6 +44,15 @@
 		}
 	],
 	"settings": {
+		"search.exclude": {
+			"**/dist": true,
+			"**/lib": true
+		},
+		"files.exclude": {
+			"packages": true,
+			".tmp-docker-vol": true,
+			".history": true
+		},
 		"typescript.format.enable": true,
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
