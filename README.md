@@ -1,3 +1,5 @@
+<img src="resource/image/logo-msh.png" alt="msh-test-contractor logo" width="200" />
+
 # MSH (Micro-Service Helper)
 
 ## Idea
@@ -39,4 +41,4 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 - [msh-base-frame](https://github.com/beecode-rs/msh-base-frame) ![npm](https://img.shields.io/npm/v/@beecode/msh-base-frame) - simplify yeoman, used for setup and updating projects
 
 ## Project relations
-[![Project Relations](https://tinyurl.com/234p3wra)](https://tinyurl.com/234p3wra)<!--![Project Relations](./resource/diagram/project-relation.puml)-->
+[![Project Relations](https://tinyurl.com/msh-project-relations)](https://tinyurl.com/msh-project-relations)<!--![Project Relations](./resource/diagram/project-relation.puml)-->

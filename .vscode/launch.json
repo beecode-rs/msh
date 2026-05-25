@@ -112,6 +112,18 @@
       "preLaunchTask": "npm: build"
     },
     {
+      "name": "test-contractor - debug - examples",
+      "type": "node",
+      "request": "launch",
+      "autoAttachChildProcesses": true,
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      "program": "${workspaceFolder}/node_modules/vitest/vitest.mjs",
+      "args": ["run", "--config", "test-examples/vitest.config.ts", "${file}", "--no-file-parallelism", "--test-timeout=0"],
+      "cwd": "${workspaceFolder}/packages/test-contractor",
+      "smartStep": true,
+      "console": "integratedTerminal"
+		},
+    {
       "name": "vision - debug - vision-no-model",
       "type": "node",
       "request": "launch",

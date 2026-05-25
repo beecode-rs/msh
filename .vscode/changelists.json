@@ -3,10 +3,8 @@
     {
       "name": "Default",
       "files": [
-        "msh.code-workspace",
-        "package-lock.json",
-        ".vscode/extensions.json",
-        ".vscode/changelists.json"
+        ".vscode/changelists.json",
+        ".vscode/launch.json"
       ]
     }
   ],
