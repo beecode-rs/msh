@@ -1,59 +1,63 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".",
 		},
 		{
-			"path": "packages/app-boot"
+			"path": "packages/app-boot",
 		},
 		{
-			"path": "packages/base-frame"
+			"path": "packages/base-frame",
 		},
 		{
-			"path": "packages/cli"
+			"path": "packages/cli",
 		},
 		{
-			"path": "packages/entity"
+			"path": "packages/entity",
 		},
 		{
-			"path": "packages/env"
+			"path": "packages/env",
 		},
 		{
-			"path": "packages/error"
+			"path": "packages/error",
 		},
 		{
-			"path": "packages/logger"
+			"path": "packages/logger",
 		},
 		{
-			"path": "packages/node-session"
+			"path": "packages/node-session",
 		},
 		{
-			"path": "packages/orm"
+			"path": "packages/orm",
 		},
 		{
-			"path": "packages/test-contractor"
+			"path": "packages/test-contractor",
 		},
 		{
-			"path": "packages/util"
+			"path": "packages/util",
 		},
 		{
-			"path": "config"
+			"path": "packages/config",
 		},
 		{
-			"path": "base-temp"
-		}
+			"path": "packages/base-temp",
+		},
 	],
 	"settings": {
 		"search.exclude": {
 			"**/dist": true,
-			"**/lib": true
+			"**/lib": true,
 		},
 		"files.exclude": {
 			"packages": true,
 			".tmp-docker-vol": true,
-			".history": true
+			".history": true,
 		},
-		"typescript.format.enable": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+		"js/ts.format.enabled": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"cSpell.words": ["beecode"],
+		"yaml.customTags": [
+			"!undefined scalar"
+		],
+	},
 }

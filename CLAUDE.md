@@ -27,7 +27,7 @@ npm run watch                # Watch mode (build + clean)
 
 ## Tech Stack
 
-- **Runtime:** Node.js 22.14.0+, npm 10.9.2+
+- **Runtime:** Node.js 22.22.1+, npm 10.9.2+
 - **Language:** TypeScript 5.7.3+ (ESM with CommonJS output)
 - **Testing:** Vitest 3.0.9+
 - **Linting:** ESLint + Prettier (via @beecode/msh-config)
