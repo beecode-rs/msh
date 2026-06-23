@@ -15,7 +15,6 @@ arrow {
 !$env_color = DodgerBlue
 !$app_boot_color = cyan
 !$cli_color = black
-!$entity_color = lightblue
 !$orm_color = orange
 !$test_contractor_color = chocolate
 !$base_frame_color = lightgray
@@ -32,7 +31,6 @@ frame "Dependency Level 1" as dep_level_1 {
 
 frame "Dependency Level 2" as dep_level_2 {
 	rectangle "msh-logger" as logger [[https://github.com/beecode-rs/msh-logger]] #$logger_color
-	rectangle "msh-entity (wip)" as entity [[https://github.com/beecode-rs/msh-entity]] #$entity_color
 }
 
 frame "Dependency Level 3" as dep_level_3 {
@@ -52,9 +50,8 @@ frame "Dependency Level 5" as dep_level_5 {
 
 '--- Dependencies (arrows point from dependent → dependency) ---
 
-' msh-util (6 dependents)
+' msh-util (5 dependents)
 util <-- logger #$util_color
-util <-- entity #$util_color
 util <-- orm #$util_color
 util <-- env #$util_color
 util <-- cli #$util_color
@@ -71,9 +68,12 @@ logger <-- cli #$logger_color
 logger <-- base_frame #$logger_color
 logger <-- orm #$logger_color
 
-' msh-test-contractor (2 dependents)
-test_contractor <-- app_boot #$test_contractor_color
-test_contractor <-- base_frame #$test_contractor_color
+' msh-test-contractor (5 devDependents — dotted lines)
+test_contractor <.. app_boot #$test_contractor_color
+test_contractor <.. base_frame #$test_contractor_color
+test_contractor <.. error #$test_contractor_color
+test_contractor <.. logger #$test_contractor_color
+test_contractor <.. node_session #$test_contractor_color
 
 ' msh-app-boot (2 dependents)
 app_boot <-- cli #$app_boot_color

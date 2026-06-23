@@ -46,7 +46,6 @@
 	"settings": {
 		"search.exclude": {
 			"**/dist": true,
-			"**/lib": true,
 		},
 		"files.exclude": {
 			"packages": true,

@@ -11,7 +11,6 @@ npm run ws-init              # Initialize all workspaces
 
 # Build
 npm run build                # Build all packages (ESM -> dist/)
-npm run build-cjs            # Build all packages (CommonJS -> lib/)
 npm run clean                # Clean dist/ directories
 
 # Test
@@ -28,10 +27,10 @@ npm run watch                # Watch mode (build + clean)
 ## Tech Stack
 
 - **Runtime:** Node.js 22.22.1+, npm 10.9.2+
-- **Language:** TypeScript 5.7.3+ (ESM with CommonJS output)
+- **Language:** TypeScript 5.7.3+ (ESM)
 - **Testing:** Vitest 3.0.9+
 - **Linting:** ESLint + Prettier (via @beecode/msh-config)
-- **Build:** TypeScript compiler + Babel (for CJS)
+- **Build:** TypeScript compiler
 
 ## Project Structure
 
@@ -62,7 +61,6 @@ packages/
 
 - **Strategy Pattern:** Used extensively for logging, sessions, env location
 - **Lifecycle Pattern:** AppFlow and LifeCycle classes for initialization
-- **Dual Output:** All packages compile to both ESM (dist/) and CommonJS (lib/)
 
 ## Package Commands
 
@@ -79,7 +77,7 @@ npm run doc           # Generate API docs
 
 ## Clean TypeScript Skill
 
-This project uses the **clean-typescript** skill for Claude Code assistance. When working on this codebase, leverage the skill for:
+This project uses the **writing-clean-ts** skill for Claude Code assistance. When working on this codebase, leverage the skill for:
 - Creating services, repositories, DALs, entities
 - Building controllers, handlers, use cases
 - Writing unit tests with Vitest

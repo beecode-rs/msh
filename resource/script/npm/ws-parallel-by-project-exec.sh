@@ -63,5 +63,5 @@ for PROJECT_NAME in "$@"; do
   EXEC_PATHS="$EXEC_PATHS${EXEC_PATHS:+ }'npm run $IF_PRESENT --workspace=packages/${PROJECT_NAME} $COMMAND'"
 done
 
-# Execute concurrently with npx concurrently
-sh -c "npx concurrently -c auto -n $LABELS $EXEC_PATHS"
+# Execute concurrently --group with npx concurrently
+sh -c "npx concurrently --group -c auto -n $LABELS $EXEC_PATHS"

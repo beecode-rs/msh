@@ -30,15 +30,15 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 - [msh-node-error](https://github.com/beecode-rs/msh-node-error) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-error)
 - [msh-node-env](https://github.com/beecode-rs/msh-node-env) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-env)
 - [msh-node-util](https://github.com/beecode-rs/msh-node-util) ![npm](https://img.shields.io/npm/v/@beecode/msh-node-util)
-  
+- [msh-entity](https://github.com/beecode-rs/msh-entity) ![npm](https://img.shields.io/npm/v/@beecode/msh-entity) - in-memory entity cache. Use [React Query](https://tanstack.com/query) (frontend) or Redis (backend) instead.
+
 </details>
 
 ### Work in progress
 
-- [msh-entity](https://github.com/beecode-rs/msh-entity) ![npm](https://img.shields.io/npm/v/@beecode/msh-entity)
 - [msh-orm](https://github.com/beecode-rs/msh-orm) ![npm](https://img.shields.io/npm/v/@beecode/msh-orm)
 - [msh-test-contractor](https://github.com/beecode-rs/msh-test-contractor) ![npm](https://img.shields.io/npm/v/@beecode/msh-test-contractor) - using contracts to achieve integration test functionality by using only unit tests
 - [msh-base-frame](https://github.com/beecode-rs/msh-base-frame) ![npm](https://img.shields.io/npm/v/@beecode/msh-base-frame) - simplify yeoman, used for setup and updating projects
 
 ## Project relations
-[![Project Relations](https://tinyurl.com/msh-project-relations)](https://tinyurl.com/msh-project-relations)<!--![Project Relations](./resource/diagram/project-relation.puml)-->
+[![Project Relations](https://tinyurl.com/msh-relations)](https://tinyurl.com/msh-relations)<!--![Project Relations](./resource/diagram/project-relation.puml)-->
