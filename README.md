@@ -41,4 +41,4 @@ It is written to be used in Typescript/Node.js projects (and can also be used in
 - [msh-base-frame](https://github.com/beecode-rs/msh-base-frame) ![npm](https://img.shields.io/npm/v/@beecode/msh-base-frame) - simplify yeoman, used for setup and updating projects
 
 ## Project relations
-[![Project Relations](https://tinyurl.com/msh-relations)](https://tinyurl.com/msh-relations)<!--![Project Relations](./resource/diagram/project-relation.puml)-->
+[![Project Relations](https://tinyurl.com/mtxcfz7e)](https://tinyurl.com/mtxcfz7e)<!--![Project Relations](./resource/diagram/project-relation.puml)-->

@@ -71,6 +71,7 @@ logger <-- orm #$logger_color
 ' msh-test-contractor (5 devDependents — dotted lines)
 test_contractor <.. app_boot #$test_contractor_color
 test_contractor <.. base_frame #$test_contractor_color
+test_contractor <. env #$test_contractor_color
 test_contractor <.. error #$test_contractor_color
 test_contractor <.. logger #$test_contractor_color
 test_contractor <.. node_session #$test_contractor_color
@@ -82,4 +83,5 @@ app_boot <-- base_frame #$app_boot_color
 ' msh-env (1 dependent)
 env <-- cli #$env_color
 
+'use https://editor.plantuml.com/ to generate link and use https://tinyurl.com/ to update link in README.md
 @enduml
