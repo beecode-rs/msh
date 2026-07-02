@@ -24,22 +24,22 @@ frame "Dependency Level 0" as dep_level_0 {
 }
 
 frame "Dependency Level 1" as dep_level_1 {
+	rectangle "msh-test-contractor (wip)" as test_contractor [[https://github.com/beecode-rs/msh-test-contractor]] #$test_contractor_color
+}
+
+frame "Dependency Level 2" as dep_level_2 {
 	rectangle "msh-error" as error [[https://github.com/beecode-rs/msh-error]] #$error_color
 	rectangle "msh-node-session" as node_session [[https://github.com/beecode-rs/msh-node-session]] #$node_session_color
 	rectangle "msh-util" as util [[https://github.com/beecode-rs/msh-util]] #$util_color
 }
 
-frame "Dependency Level 2" as dep_level_2 {
+frame "Dependency Level 3" as dep_level_3 {
 	rectangle "msh-logger" as logger [[https://github.com/beecode-rs/msh-logger]] #$logger_color
 }
 
-frame "Dependency Level 3" as dep_level_3 {
+frame "Dependency Level 4" as dep_level_4 {
 	rectangle "msh-orm (wip)" as orm [[https://github.com/beecode-rs/msh-orm]] #$orm_color
 	rectangle "msh-env" as env [[https://github.com/beecode-rs/msh-env]] #$env_color;text:white
-	rectangle "msh-test-contractor (wip)" as test_contractor [[https://github.com/beecode-rs/msh-test-contractor]] #$test_contractor_color
-}
-
-frame "Dependency Level 4" as dep_level_4 {
 	rectangle "msh-app-boot" as app_boot [[https://github.com/beecode-rs/msh-app-boot]] #$app_boot_color
 }
 
@@ -50,8 +50,16 @@ frame "Dependency Level 5" as dep_level_5 {
 
 '--- Dependencies (arrows point from dependent → dependency) ---
 
+' msh-test-contractor (5 devDependents — dotted lines)
+test_contractor <. app_boot #$test_contractor_color
+test_contractor <. base_frame #$test_contractor_color
+test_contractor <. env #$test_contractor_color
+test_contractor <.. error #$test_contractor_color
+test_contractor <. logger #$test_contractor_color
+test_contractor <. node_session #$test_contractor_color
+
 ' msh-util (5 dependents)
-util <-- logger #$util_color
+util <- logger #$util_color
 util <-- orm #$util_color
 util <-- env #$util_color
 util <-- cli #$util_color
@@ -61,20 +69,12 @@ util <-- base_frame #$util_color
 error <-- orm #$error_color
 
 ' msh-logger (6 dependents)
-logger <-- test_contractor #$logger_color
-logger <-- env #$logger_color
-logger <-- app_boot #$logger_color
-logger <-- cli #$logger_color
-logger <-- base_frame #$logger_color
-logger <-- orm #$logger_color
+logger <- env #$logger_color
+logger <- app_boot #$logger_color
+logger <- cli #$logger_color
+logger <- base_frame #$logger_color
+logger <- orm #$logger_color
 
-' msh-test-contractor (5 devDependents — dotted lines)
-test_contractor <.. app_boot #$test_contractor_color
-test_contractor <.. base_frame #$test_contractor_color
-test_contractor <. env #$test_contractor_color
-test_contractor <.. error #$test_contractor_color
-test_contractor <.. logger #$test_contractor_color
-test_contractor <.. node_session #$test_contractor_color
 
 ' msh-app-boot (2 dependents)
 app_boot <-- cli #$app_boot_color
